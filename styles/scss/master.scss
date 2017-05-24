@@ -1,0 +1,217 @@
+	// <style>
+	// 	html, body {
+	// 		/*background: linear-gradient(red,yellow);*/
+	// 	}
+	// 	.welcomemsg {
+	// 		margin: 8px;
+	// 		float: left;
+	// 	}
+	// 	.a {
+	// 		border-radius: 0 0 50% 50%;
+	// 	}
+	// 	.bgimage {
+	// 		position: relative;
+	// 		width: 100%;
+	// 		background: linear-gradient(red,yellow);
+	// 	}
+	// 	.text {
+	// 		position: absolute;
+	// 		top: 300px;
+	// 		left: 80px;
+	// 		width: 50%;
+	// 		/*border: 1px solid orange;*/
+	// 	}
+	// </style>
+
+/* ================================================================ 
+  BASE STYLE START 
+================================================================  */
+
+html, body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+html, body, ul, ol, li, form, fieldset, legend,
+h1, h2, h3, h4, h5, h6, p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	p {
+
+	}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+li {
+  	list-style: none;
+  	display: inline-block;
+}
+
+/* ================================================================ 
+	BASE STYLE END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+
+/* ========== HEADER ========== */
+
+header {
+	// width: 100%;
+	// height: 78px;
+	// overflow: hidden;
+	// text-align: center;
+	// width: 100%;
+	// padding: 0.5em 2em;
+	// box-shadow: 0 2px 4px rgba(147, 148, 146, 0.5);
+	// background-color: #FFFFFF;
+	// border: 1px solid orange;
+}
+
+	// .logo {
+	// 	float: left;
+	// 	border: 1px solid orange;
+	// }
+
+	// .name {
+	// 	// float: left;
+	// 	// padding: 0.5em 0 0 0.8em;
+	// 	display: flex;
+	// 	align-items: center;
+ //  		justify-content: center;
+	// 	border: 1px solid orange;
+	// }
+
+/* ========== NAVBAR ========== */
+
+// nav {
+// 	text-align: right;
+// 	overflow: hidden;
+// 	padding: 0.6em 0;
+// 	border: 1px solid orange;
+// }
+
+// 	nav ul {
+// 		float: right;
+// 		padding-right: 2em;
+// 	}
+
+// 	nav ul li {
+// 		display: inline;
+// 		padding: 1.3em;
+// 		font-weight: bold;
+// 	}
+
+/* ========== FOOTER ========== */
+
+.footerwrapper {
+	text-align: left;
+	padding-top: 1.3em;
+	margin-top: 2.5em;
+	border-top: 1px dotted #C7C7C7;
+}
+
+	footer p {
+		font-size: 1.2em;
+		padding-bottom: 1em;
+	}
+
+	.footerwrapper ul {
+		float: right;
+		overflow: hidden;
+		margin-top: -3.5em;
+	}
+
+	.footerwrapper ul li {
+		float: left;
+		display: inline;
+		padding-left: 1.5em;
+	}
+
+/* ========== IMAGES ========== */
+
+// .icons {
+// 	padding-top: .5em;
+// }
+
+/* ========== CONTENT ========== */
+
+.content {
+	clear: both;
+	overflow: hidden;
+	padding: 78px;
+}
+
+// .title {
+// 	width: 100%;
+// 	overflow: hidden;
+// 	padding-bottom: 2em;
+// }
+
+// .text {
+// 	float: left;
+// 	padding-right: 1.5em;
+// 	margin-bottom: 1.5em;
+// }
+
+/* ================================================================ 
+	LAYOUT END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LINKS START 
+================================================================  */
+
+/* ========== LINKS ========== */
+
+a {
+	color: #939292;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: #039ED3;
+	}
+
+	.onpage {
+		color: #039ED3;
+	}
+
+/* ================================================================ 
+	LINKS END 
+================================================================  */
+
+
+
+
+
+

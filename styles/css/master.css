@@ -1,0 +1,90 @@
+/* ================================================================ 
+  BASE STYLE START 
+================================================================  */
+html, body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFFFF; }
+
+html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 48px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+li {
+  list-style: none;
+  display: inline-block; }
+
+/* ================================================================ 
+	BASE STYLE END
+================================================================  */
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+/* ========== HEADER ========== */
+/* ========== NAVBAR ========== */
+/* ========== FOOTER ========== */
+.footerwrapper {
+  text-align: left;
+  padding-top: 1.3em;
+  margin-top: 2.5em;
+  border-top: 1px dotted #C7C7C7; }
+
+footer p {
+  font-size: 1.2em;
+  padding-bottom: 1em; }
+
+.footerwrapper ul {
+  float: right;
+  overflow: hidden;
+  margin-top: -3.5em; }
+
+.footerwrapper ul li {
+  float: left;
+  display: inline;
+  padding-left: 1.5em; }
+
+/* ========== IMAGES ========== */
+/* ========== CONTENT ========== */
+.content {
+  clear: both;
+  overflow: hidden;
+  padding: 78px; }
+
+/* ================================================================ 
+	LAYOUT END
+================================================================  */
+/* ================================================================ 
+	LINKS START 
+================================================================  */
+/* ========== LINKS ========== */
+a {
+  color: #939292;
+  text-decoration: none; }
+
+a:hover {
+  color: #039ED3; }
+
+.onpage {
+  color: #039ED3; }
+
+/* ================================================================ 
+	LINKS END 
+================================================================  */

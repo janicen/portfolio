@@ -19,7 +19,7 @@
 	<!-- CSS -->
 
 	<!-- Main Stylesheet -->
-	<!-- <link rel="stylesheet" href="./css/style.css" type="text/css"> -->
+	<link rel="stylesheet" href="./styles/css/master.css" type="text/css">
 
 	<!-- Media Query -->
 	<!-- <link rel="stylesheet" type="text/css" href="./css/mediaquery.css"/> -->
@@ -31,8 +31,24 @@
 	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
 
 	<style>
-		html, body {
-			font-family: 'Source Sans Pro', sans-serif;
+		header {
+			overflow: hidden;
+			vertical-align: middle;
+			border: 1px solid orange;
+		}
+		nav {
+			float: right;
+			clear: both;
+			font-size: 16px;
+			font-weight: 700;
+			border: 1px solid blue;
+		}
+		li {
+			padding-right: 1.3em;
+		}
+		.name {
+			width: 50%;
+			border: 1px solid blue;
 		}
 	</style>
 
@@ -46,11 +62,16 @@
 		<header>
 
 			<!-- Logo Start -->
-			<div class="logo">
+			<!-- <div class="logo">
 				<a href="index.html"><img src="./img/logo.png" width="48" height="48" alt="logo"/></a>
-				<h2>Janice Ng</h2>
-			</div>
+			</div> -->
 			<!-- Logo End -->
+
+			<!-- Name Start -->
+			<div class="name">
+				<h3>Janice Ng</h3>
+			</div>
+			<!-- Name End -->
 
 			<!-- Navbar Start -->
 			<nav>
@@ -70,15 +91,20 @@
 			<!-- Welcome Message Start -->
 			<div class="welcomemsg">
 
-				<h1>Hi hi!</h1>
-				
-				<h4>You just found a small girl with a big backpack who carries goodies to care for human-beings.</h4>
+				<!-- Background Image Start --> 
+				<div class ="bgimage">
+					<img src="./img/about-profile-cover.jpg" width="1920" height="800" alt="background image" class="a"/>
+				</div>
+				<!-- Background Image End -->
 
-					<!-- Background Image Start --> 
-					<div class ="bgimage">
-						<img src="http://placehold.it/1280x360" width="1280" height="360" alt="background image"/>
-					</div>
-					<!-- Background Image End -->
+
+				<!-- Text Start -->
+				<div class="text">
+					<h1>Hi hi!</h1>
+				
+					<h4>You just found a small girl with a big backpack who carries goodies to care for human-beings.</h4>
+				</div>
+				<!-- Text End -->
 
 			</div>
 			<!-- Welcome Message End -->
@@ -126,10 +152,10 @@
 			<div class="footerwrapper">
 				<h3>Connect with me</h3>
 				<ul>
-					<li><a href="https://dribbble.com/janicen"><img src="./img/icon-dribbble.png" width="64" height="64" alt="dribbble"/></a></li>
-					<li><a href="http://www.flickr.com/photos/42005057@N04/"><img src="./img/icon-flickr.png" width="64" height="64" alt="flickr"/></a></li>
-					<li><a href="https://www.instagram.com/jelly_angels/"><img src="./img/icon-instagram.png" width="64" height="64" alt="linkedin"/></a></li>
-					<li><a href="http://www.linkedin.com/pub/janice-ng/7a/2b5/809"><img src="./img/icon-linkedin.png" width="64" height="64" alt="linkedin"/></a></li>
+					<li><a href="https://dribbble.com/janicen"><img src="./img/icon-dribbble.png" width="48" height="48" alt="dribbble"/></a></li>
+					<li><a href="http://www.flickr.com/photos/42005057@N04/"><img src="./img/icon-flickr.png" width="48" height="48" alt="flickr"/></a></li>
+					<li><a href="https://www.instagram.com/jelly_angels/"><img src="./img/icon-instagram.png" width="48" height="48" alt="linkedin"/></a></li>
+					<li><a href="http://www.linkedin.com/pub/janice-ng/7a/2b5/809"><img src="./img/icon-linkedin.png" width="48" height="48" alt="linkedin"/></a></li>
 				</ul>
 				<p>Janice Ng . &copy; 2017 . All rights reserved</p>
 			<div>
