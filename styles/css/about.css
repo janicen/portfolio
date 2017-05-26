@@ -39,6 +39,17 @@ li {
 	LAYOUT START
 ================================================================  */
 /* ========== HEADER ========== */
+header {
+  overflow: hidden;
+  border: 1px solid orange; }
+  header div, header nav, header li {
+    display: inline-block;
+    vertical-align: middle; }
+  header .name {
+    border: 1px solid blue; }
+  header nav {
+    float: right; }
+
 /* ========== NAVBAR ========== */
 /* ========== FOOTER ========== */
 footer {
@@ -88,10 +99,15 @@ footer {
 .linkedin-hover:hover img:last-child {
   display: inline-block; }
 
+.footerwrapper {
+  width: 100px;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 1.5em;
+  border-top: 2px solid #939292; }
+
 /* ========== IMAGES ========== */
 /* ========== CONTENT ========== */
-
-
 /* ================================================================ 
 	LAYOUT END
 ================================================================  */
@@ -111,4 +127,10 @@ a:hover {
 
 /* ================================================================ 
 	LINKS END 
+================================================================  */
+/* ================================================================ 
+	ABOUT PAGE START
+================================================================  */
+/* ================================================================ 
+	ABOUT PAGE END
 ================================================================  */

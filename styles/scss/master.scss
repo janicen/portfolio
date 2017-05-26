@@ -84,30 +84,22 @@ li {
 /* ========== HEADER ========== */
 
 header {
-	// width: 100%;
-	// height: 78px;
-	// overflow: hidden;
-	// text-align: center;
-	// width: 100%;
-	// padding: 0.5em 2em;
-	// box-shadow: 0 2px 4px rgba(147, 148, 146, 0.5);
-	// background-color: #FFFFFF;
-	// border: 1px solid orange;
+	overflow: hidden;
+	border: 1px solid orange;
+
+	div, nav, li {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.name {
+		border: 1px solid blue;
+	}
+
+	nav {
+		float: right;
+	}
 }
-
-	// .logo {
-	// 	float: left;
-	// 	border: 1px solid orange;
-	// }
-
-	// .name {
-	// 	// float: left;
-	// 	// padding: 0.5em 0 0 0.8em;
-	// 	display: flex;
-	// 	align-items: center;
- //  		justify-content: center;
-	// 	border: 1px solid orange;
-	// }
 
 /* ========== NAVBAR ========== */
 
@@ -131,28 +123,79 @@ header {
 
 /* ========== FOOTER ========== */
 
-.footerwrapper {
-	text-align: left;
-	padding-top: 1.3em;
-	margin-top: 2.5em;
-	border-top: 1px dotted #C7C7C7;
+footer {
+	text-align: center;
+	margin-bottom: 2em;
+
+	h3, p {
+		padding-bottom: 1.5em;
+		color: #039ED3;
+	}
+
+	ul {
+		padding-bottom: 1.5em;
+	}
+
+	li {
+		padding: 0 1em;
+	}
+
 }
 
-	footer p {
-		font-size: 1.2em;
-		padding-bottom: 1em;
+	.dribbble-hover img:last-child {
+		display: none;
 	}
 
-	.footerwrapper ul {
-		float: right;
+	.dribbble-hover:hover img:first-child {
+		display:none;
+	}
+
+	.dribbble-hover:hover img:last-child {
+		display: inline-block;
+	}
+
+	.flickr-hover img:last-child {
+		display: none;
+	}
+
+	.flickr-hover:hover img:first-child {
+		display:none;
+	}
+
+	.flickr-hover:hover img:last-child {
+		display: inline-block;
+	}
+
+	.instagram-hover img:last-child {
+		display: none;
+	}
+
+	.instagram-hover:hover img:first-child {
+		display:none;
+	}
+
+	.instagram-hover:hover img:last-child {
+		display: inline-block;
+	}
+
+	.linkedin-hover img:last-child {
+		display: none;
+	}
+
+	.linkedin-hover:hover img:first-child {
+		display:none;
+	}
+
+	.linkedin-hover:hover img:last-child {
+		display: inline-block;
+	}
+
+	.footerwrapper {
+		width: 100px;
 		overflow: hidden;
-		margin-top: -3.5em;
-	}
-
-	.footerwrapper ul li {
-		float: left;
-		display: inline;
-		padding-left: 1.5em;
+		margin: auto;
+		padding-top: 1.5em;
+		border-top: 2px solid #939292;
 	}
 
 /* ========== IMAGES ========== */
@@ -163,11 +206,9 @@ header {
 
 /* ========== CONTENT ========== */
 
-.content {
-	clear: both;
-	overflow: hidden;
-	padding: 78px;
-}
+// .content {
+// 	border: 1px solid orange;
+// }
 
 // .title {
 // 	width: 100%;

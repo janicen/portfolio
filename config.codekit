@@ -462,6 +462,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/originalimg\/ibm-cover-o.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.02512e+06,
+		"inputAbbreviatedPath": "\/img\/originalimg\/ibm-cover-o.JPG",
+		"outputAbbreviatedPath": "\/img\/originalimg\/ibm-cover-o.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/originalimg\/ibm1-o.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -480,6 +491,39 @@
 		"initialSize": 765723,
 		"inputAbbreviatedPath": "\/img\/originalimg\/rayz1-o.jpg",
 		"outputAbbreviatedPath": "\/img\/originalimg\/rayz1-o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/originalimg\/sfu-cover-o.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.74234e+06,
+		"inputAbbreviatedPath": "\/img\/originalimg\/sfu-cover-o.JPG",
+		"outputAbbreviatedPath": "\/img\/originalimg\/sfu-cover-o.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/originalimg\/sfu1-o.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.89771e+06,
+		"inputAbbreviatedPath": "\/img\/originalimg\/sfu1-o.JPG",
+		"outputAbbreviatedPath": "\/img\/originalimg\/sfu1-o.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/originalimg\/surrey-cover-o.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.75284e+06,
+		"inputAbbreviatedPath": "\/img\/originalimg\/surrey-cover-o.JPG",
+		"outputAbbreviatedPath": "\/img\/originalimg\/surrey-cover-o.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -572,13 +616,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/sfu1-N.jpg": {
+	"\/img\/sfu1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.44972e+06,
-		"inputAbbreviatedPath": "\/img\/sfu1-N.jpg",
-		"outputAbbreviatedPath": "\/img\/sfu1-N.jpg",
+		"initialSize": 251785,
+		"inputAbbreviatedPath": "\/img\/sfu1.jpg",
+		"outputAbbreviatedPath": "\/img\/sfu1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -855,6 +899,47 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/css\/master.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/css\/master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/scss\/about.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/about.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/styles\/scss\/master.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/master.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/master.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		}
 	},
 "hooks": [
