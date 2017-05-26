@@ -4,10 +4,30 @@
 	ABOUT PAGE START
 ================================================================  */
 
-// .closingremarks {
-// 	width: 100%;
-// 	border: 1px solid orange;
-// }
+.resume {
+	width: 100%;
+	padding: 1em 3em;
+
+	h3 {
+		font-weight: 400;
+		text-align: center;
+	}
+}
+
+.closingremarks {
+	width: 100%;
+	margin-bottom: 2em;
+	padding: 2em 3em;
+	background-color: #039ED3;
+
+	h3 {
+		width: 50%;
+		margin: auto;
+		font-weight: 400;
+		text-align: center;
+		color: #FFFFFF;
+	}
+}
 
 /* ================================================================ 
 	ABOUT PAGE END

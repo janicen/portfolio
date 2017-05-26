@@ -64,7 +64,6 @@ header {
     header .logo .name {
       padding-left: 0.8em; }
 
-/* ========== NAVBAR ========== */
 /* ========== FOOTER ========== */
 footer {
   text-align: center;
@@ -148,6 +147,25 @@ a:hover {
 /* ================================================================ 
 	ABOUT PAGE START
 ================================================================  */
+.resume {
+  width: 100%;
+  padding: 1em 3em; }
+  .resume h3 {
+    font-weight: 400;
+    text-align: center; }
+
+.closingremarks {
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 2em 3em;
+  background-color: #039ED3; }
+  .closingremarks h3 {
+    width: 50%;
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF; }
+
 /* ================================================================ 
 	ABOUT PAGE END
 ================================================================  */
