@@ -28,17 +28,19 @@
 ================================================================  */
 
 html, body {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000000;
-  background-color: #FFFFFF;
+	width: auto;
+	height: auto;
+  	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  	font-size: 16px;
+  	color: #000000;
+  	background-color: #FFFFFF;
 }
 
 html, body, ul, ol, li, form, fieldset, legend,
 h1, h2, h3, h4, h5, h6, p {
-  border: 0;
-  margin: 0;
-  padding: 0;
+  	border: 0;
+  	margin: 0;
+  	padding: 0;
 }
 
 	h1 {
@@ -84,21 +86,38 @@ li {
 /* ========== HEADER ========== */
 
 header {
+	width: 95%;
+	height: auto;
+	position: fixed;
 	overflow: hidden;
-	border: 1px solid orange;
+	padding: 0.5em 3em;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 10px rgba(147,146,146,0.5);
 
-	div, nav, li {
-		display: inline-block;
-		vertical-align: middle;
-	}
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-	.name {
-		border: 1px solid blue;
-	}
 
 	nav {
-		float: right;
+		font-size: 16px;
+		font-weight: 700;
 	}
+
+	li {
+		padding: 0 1.3em;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.name {
+			padding-left: 0.8em;
+		}
+	}
+
 }
 
 /* ========== NAVBAR ========== */
@@ -206,9 +225,9 @@ footer {
 
 /* ========== CONTENT ========== */
 
-// .content {
-// 	border: 1px solid orange;
-// }
+.content {
+	padding-top: 65px;
+}
 
 // .title {
 // 	width: 100%;
