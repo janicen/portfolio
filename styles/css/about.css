@@ -18,7 +18,8 @@ h1 {
   font-size: 48px; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  padding-bottom: 1em; }
 
 h3 {
   font-size: 24px; }
@@ -122,6 +123,7 @@ footer {
 /* ========== IMAGES ========== */
 /* ========== CONTENT ========== */
 .content {
+  overflow: hidden;
   padding-top: 65px; }
 
 /* ================================================================ 
@@ -147,19 +149,47 @@ a:hover {
 /* ================================================================ 
 	ABOUT PAGE START
 ================================================================  */
+.welcome-msg {
+  padding: 4em 3em;
+  background-image: url('../../img/about-profile-cover.jpg');
+  background-size: cover;
+  background-position: relative center;
+  color: #FFFFFF; }
+
+.who-am-i {
+  padding: 3em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .who-am-i h2 {
+    color: #039ED3; }
+  .who-am-i .who-am-i-text {
+    width: auto;
+    margin-right: 10em; }
+  .who-am-i .me-img {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 5em;
+    padding-top: 5em; }
+
+.why-i-design {
+  padding: 4em 3em;
+  background-image: url('../../img/about-items.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF; }
+
 .resume {
-  width: 100%;
-  padding: 1em 3em; }
+  padding: 1em 0; }
   .resume h3 {
     font-weight: 400;
     text-align: center; }
 
-.closingremarks {
-  width: 100%;
+.closing-remarks {
   margin-bottom: 2em;
-  padding: 2em 3em;
+  padding: 2em 0;
   background-color: #039ED3; }
-  .closingremarks h3 {
+  .closing-remarks h3 {
     width: 50%;
     margin: auto;
     font-weight: 400;

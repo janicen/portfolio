@@ -4,9 +4,49 @@
 	ABOUT PAGE START
 ================================================================  */
 
+.welcome-msg {
+	padding: 4em 3em;
+	background-image: url('../../img/about-profile-cover.jpg');
+	background-size: cover;
+	background-position: relative center;
+	color: #FFFFFF;
+	// border-radius: 0 0 50% 50%;
+}
+
+.who-am-i {
+	padding: 3em 3em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	h2 {
+		color: #039ED3;
+	}
+
+	.who-am-i-text {
+		width: auto;
+		margin-right: 10em;
+
+	}
+
+	.me-img {
+		width: 100%;
+		max-width: 200px;
+		margin-right: 5em;
+		padding-top: 5em;
+	}
+}
+
+.why-i-design {
+	padding: 4em 3em;
+	background-image: url('../../img/about-items.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #FFFFFF;
+}
+
 .resume {
-	width: 100%;
-	padding: 1em 3em;
+	padding: 1em 0;
 
 	h3 {
 		font-weight: 400;
@@ -14,10 +54,9 @@
 	}
 }
 
-.closingremarks {
-	width: 100%;
+.closing-remarks {
 	margin-bottom: 2em;
-	padding: 2em 3em;
+	padding: 2em 0;
 	background-color: #039ED3;
 
 	h3 {
