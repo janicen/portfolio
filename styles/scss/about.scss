@@ -5,16 +5,17 @@
 ================================================================  */
 
 .welcome-msg {
-	padding: 4em 3em;
+	height: auto;
+	padding: 4em 6.8em 10em 6.8em;
 	background-image: url('../../img/about-profile-cover.jpg');
 	background-size: cover;
 	background-position: relative center;
 	color: #FFFFFF;
-	// border-radius: 0 0 50% 50%;
+	border-radius: 0 0 50% 50%;
 }
 
 .who-am-i {
-	padding: 3em 3em;
+	padding: 3em 6.8em;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -31,14 +32,14 @@
 
 	.me-img {
 		width: 100%;
-		max-width: 200px;
+		max-width: 250px;
 		margin-right: 5em;
-		padding-top: 5em;
+		// padding-top: 5em;
 	}
 }
 
 .why-i-design {
-	padding: 4em 3em;
+	padding: 4em 6.8em;
 	background-image: url('../../img/about-items.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -49,7 +50,6 @@
 	padding: 1em 0;
 
 	h3 {
-		font-weight: 400;
 		text-align: center;
 	}
 }
@@ -62,7 +62,6 @@
 	h3 {
 		width: 50%;
 		margin: auto;
-		font-weight: 400;
 		text-align: center;
 		color: #FFFFFF;
 	}
