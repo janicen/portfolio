@@ -1,7 +1,116 @@
 /* ================================================================ 
+	INDEX PAGE START
+================================================================  */
+.welcome-msg-index {
+  height: auto;
+  margin-bottom: 2em;
+  padding: 4em 12em 10em 12em;
+  background-image: url('../../img/bg-pattern.png');
+  background-size: cover;
+  background-position: relative center;
+  border-radius: 0 0 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .welcome-msg-index h1, .welcome-msg-index h3 {
+    background: linear-gradient(#2A2C7B, #039ED3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .welcome-msg-index h1 {
+    font-size: 64px;
+    margin-right: 2em;
+    padding-bottom: 0; }
+  .welcome-msg-index h3 {
+    line-height: 1.5em; }
+
+.surrey, .ibm, .farmooo, .sfu, .rayz {
+  height: auto;
+  background-size: cover;
+  background-position: relative center;
+  padding: 4em 6.8em;
+  color: #FFFFFF; }
+  .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
+    width: 50%; }
+
+.surrey {
+  background: linear-gradient(rgba(83, 131, 0, 0.75), rgba(83, 131, 0, 0.75)), url("../../img/surrey-cover.jpg"); }
+
+.ibm {
+  background: linear-gradient(rgba(0, 63, 105, 0.75), rgba(0, 63, 105, 0.75)), url("../../img/ibm-cover.jpg"); }
+
+.farmooo {
+  background: linear-gradient(rgba(130, 92, 37, 0.75), rgba(130, 92, 37, 0.75)), url("../../img/farmooo-cover.jpg"); }
+
+.sfu {
+  background: linear-gradient(rgba(166, 25, 46, 0.75), rgba(166, 25, 46, 0.75)), url("../../img/sfu-cover.jpg"); }
+
+.rayz {
+  background: linear-gradient(rgba(6, 166, 255, 0.75), rgba(6, 166, 255, 0.75)), url("../../img/rayz-cover.jpg"); }
+
+/* ========== TEXT LAYOUT ========== */
+.text-wrapper {
+  margin-top: 2em; }
+
+/* ================================================================ 
+	INDEX PAGE END
+================================================================  */
+/* ================================================================ 
+	ABOUT PAGE START
+================================================================  */
+.welcome-msg-about {
+  height: auto;
+  padding: 4em 6.8em 10em 6.8em;
+  background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-profile-cover.jpg");
+  background-size: cover;
+  background-position: relative center;
+  color: #FFFFFF;
+  border-radius: 0 0 50% 50%; }
+
+.who-am-i {
+  padding: 3em 6.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .who-am-i h2 {
+    color: #039ED3; }
+  .who-am-i .who-am-i-text {
+    width: auto;
+    margin-right: 10em; }
+  .who-am-i .me-img {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 5em; }
+
+.why-i-design {
+  padding: 4em 6.8em;
+  background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-items.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF; }
+
+.resume {
+  padding: 1em 0; }
+  .resume h3 {
+    text-align: center; }
+
+.closing-remarks {
+  padding: 2em 0;
+  background-color: #039ED3; }
+  .closing-remarks h3 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF; }
+
+/* ================================================================ 
+	ABOUT PAGE END
+================================================================  */
+/* ================================================================ 
   BASE STYLE START 
 ================================================================  */
 html, body {
+  width: auto;
+  height: auto;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #000000;
@@ -13,16 +122,25 @@ html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p {
   padding: 0; }
 
 h1 {
-  font-size: 48px; }
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 0.5em; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 1em; }
 
 h3 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: 400; }
 
 h4 {
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 400; }
+
+p {
+  font-weight: 400; }
 
 img {
   max-width: 100%;
@@ -32,6 +150,9 @@ li {
   list-style: none;
   display: inline-block; }
 
+#bold {
+  font-weight: 700; }
+
 /* ================================================================ 
 	BASE STYLE END
 ================================================================  */
@@ -39,11 +160,37 @@ li {
 	LAYOUT START
 ================================================================  */
 /* ========== HEADER ========== */
-/* ========== NAVBAR ========== */
+header {
+  width: 95%;
+  height: auto;
+  position: fixed;
+  overflow: hidden;
+  padding: 0.5em 3em;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(147, 146, 146, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header h3 {
+    font-weight: 700; }
+  header nav {
+    font-size: 16px;
+    font-weight: 700; }
+  header li {
+    padding: 0 1.3em; }
+  header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    header .logo .name {
+      padding-left: 0.8em; }
+
 /* ========== FOOTER ========== */
 footer {
   text-align: center;
-  margin-bottom: 2em; }
+  margin: 2em 0; }
+  footer h3 {
+    font-weight: 700; }
   footer h3, footer p {
     padding-bottom: 1.5em;
     color: #039ED3; }
@@ -88,9 +235,17 @@ footer {
 .linkedin-hover:hover img:last-child {
   display: inline-block; }
 
-/* ========== IMAGES ========== */
-/* ========== CONTENT ========== */
+.footerwrapper {
+  width: 100px;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 1.5em;
+  border-top: 2px solid #939292; }
 
+/* ========== CONTENT ========== */
+.content {
+  overflow: hidden;
+  padding-top: 65px; }
 
 /* ================================================================ 
 	LAYOUT END
@@ -108,6 +263,28 @@ a:hover {
 
 .onpage {
   color: #039ED3; }
+
+/* ========== BUTTONS ========== */
+a.btn {
+  display: inline-block;
+  margin-top: 5em;
+  padding: 1em 2em;
+  border-radius: 1em;
+  border: 2px solid #FFFFFF; }
+  a.btn h4 {
+    width: 100%;
+    color: #FFFFFF; }
+
+a.btn:hover {
+  display: inline-block;
+  margin-top: 5em;
+  padding: 1em 2em;
+  border-radius: 1em;
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF; }
+  a.btn:hover h4 {
+    width: 100%;
+    color: #039ED3; }
 
 /* ================================================================ 
 	LINKS END 

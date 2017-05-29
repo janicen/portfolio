@@ -22,17 +22,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/about-items-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42544,
-		"inputAbbreviatedPath": "\/img\/about-items-2.jpg",
-		"outputAbbreviatedPath": "\/img\/about-items-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/about-items.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -216,6 +205,17 @@
 		"initialSize": 509394,
 		"inputAbbreviatedPath": "\/img\/farmooo9.jpg",
 		"outputAbbreviatedPath": "\/img\/farmooo9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ibm-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160448,
+		"inputAbbreviatedPath": "\/img\/ibm-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/ibm-cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -506,6 +506,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/originalimg\/rayz-cover-o.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05566e+06,
+		"inputAbbreviatedPath": "\/img\/originalimg\/rayz-cover-o.JPG",
+		"outputAbbreviatedPath": "\/img\/originalimg\/rayz-cover-o.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/originalimg\/rayz1-o.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -583,13 +594,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/rayz-cover.JPG": {
+	"\/img\/rayz-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.05566e+06,
-		"inputAbbreviatedPath": "\/img\/rayz-cover.JPG",
-		"outputAbbreviatedPath": "\/img\/rayz-cover.JPG",
+		"initialSize": 124851,
+		"inputAbbreviatedPath": "\/img\/rayz-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/rayz-cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -634,6 +645,17 @@
 		"initialSize": 76650,
 		"inputAbbreviatedPath": "\/img\/rayz5.jpg",
 		"outputAbbreviatedPath": "\/img\/rayz5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sfu-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128240,
+		"inputAbbreviatedPath": "\/img\/sfu-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/sfu-cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -766,6 +788,17 @@
 		"initialSize": 96317,
 		"inputAbbreviatedPath": "\/img\/sfu9.jpg",
 		"outputAbbreviatedPath": "\/img\/sfu9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/surrey-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142212,
+		"inputAbbreviatedPath": "\/img\/surrey-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/surrey-cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -922,15 +955,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/css\/about.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/css\/about.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/styles\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -945,10 +969,26 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/scss\/about.scss",
 		"outputAbbreviatedPath": "\/styles\/css\/about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/styles\/scss\/index.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/index.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/index.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -961,7 +1001,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/scss\/master.scss",
 		"outputAbbreviatedPath": "\/styles\/css\/master.css",

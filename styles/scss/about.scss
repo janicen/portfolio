@@ -1,13 +1,11 @@
-@import 'master';
-
 /* ================================================================ 
 	ABOUT PAGE START
 ================================================================  */
 
-.welcome-msg {
+.welcome-msg-about {
 	height: auto;
 	padding: 4em 6.8em 10em 6.8em;
-	background-image: url('../../img/about-profile-cover.jpg');
+	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-profile-cover.jpg");
 	background-size: cover;
 	background-position: relative center;
 	color: #FFFFFF;
@@ -40,7 +38,7 @@
 
 .why-i-design {
 	padding: 4em 6.8em;
-	background-image: url('../../img/about-items.jpg');
+	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-items.jpg");
 	background-size: cover;
 	background-position: center center;
 	color: #FFFFFF;
@@ -55,7 +53,6 @@
 }
 
 .closing-remarks {
-	margin-bottom: 2em;
 	padding: 2em 0;
 	background-color: #039ED3;
 

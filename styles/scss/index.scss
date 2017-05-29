@@ -1,0 +1,75 @@
+/* ================================================================ 
+	INDEX PAGE START
+================================================================  */
+
+.welcome-msg-index {
+	height: auto;
+	margin-bottom: 2em;
+	padding: 4em 12em 10em 12em;
+	background-image: url('../../img/bg-pattern.png');
+	background-size: cover;
+	background-position: relative center;
+	border-radius: 0 0 50% 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	h1, h3 {
+	  background: linear-gradient(#2A2C7B, #039ED3);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	}
+
+	h1 {
+		font-size: 64px;
+		margin-right: 2em;
+		padding-bottom: 0;
+	}
+
+	h3 {
+		line-height: 1.5em;
+	}
+}
+
+.surrey, .ibm, .farmooo, .sfu, .rayz {
+	height: auto;
+  	background-size: cover;
+  	background-position: relative center;
+	padding: 4em 6.8em;
+	color: #FFFFFF;
+
+	h3 {
+		width: 50%;
+	}
+}
+
+	.surrey {
+		background: linear-gradient(rgba(83,131,0,0.75),rgba(83,131,0,0.75)),url("../../img/surrey-cover.jpg");
+	}
+
+	.ibm {
+		background: linear-gradient(rgba(0,63,105,0.75),rgba(0,63,105,0.75)),url("../../img/ibm-cover.jpg");
+	}
+
+	.farmooo {
+		background: linear-gradient(rgba(130,92,37,0.75),rgba(130,92,37,0.75)),url("../../img/farmooo-cover.jpg");
+	}
+
+	.sfu {
+		background: linear-gradient(rgba(166,25,46,0.75),rgba(166,25,46,0.75)),url("../../img/sfu-cover.jpg");
+	}
+
+	.rayz {
+		background: linear-gradient(rgba(6,166,255,0.75),rgba(6,166,255,0.75)),url("../../img/rayz-cover.jpg");
+	}
+
+/* ========== TEXT LAYOUT ========== */
+
+.text-wrapper {
+	margin-top: 2em;
+}
+
+/* ================================================================ 
+	INDEX PAGE END
+================================================================  */

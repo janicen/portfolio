@@ -1,3 +1,6 @@
+@import 'index';
+@import 'about';
+
 /* ================================================================ 
   BASE STYLE START 
 ================================================================  */
@@ -52,6 +55,10 @@ img {
 li {
   	list-style: none;
   	display: inline-block;
+}
+
+#bold {
+	font-weight: 700;
 }
 
 /* ================================================================ 
@@ -109,7 +116,7 @@ header {
 
 footer {
 	text-align: center;
-	margin-bottom: 2em;
+	margin: 2em 0;
 
 	h3 {
 		font-weight: 700;
@@ -186,30 +193,12 @@ footer {
 		border-top: 2px solid #939292;
 	}
 
-/* ========== IMAGES ========== */
-
-// .icons {
-// 	padding-top: .5em;
-// }
-
 /* ========== CONTENT ========== */
 
 .content {
 	overflow: hidden;
 	padding-top: 65px;
 }
-
-// .title {
-// 	width: 100%;
-// 	overflow: hidden;
-// 	padding-bottom: 2em;
-// }
-
-// .text {
-// 	float: left;
-// 	padding-right: 1.5em;
-// 	margin-bottom: 1.5em;
-// }
 
 /* ================================================================ 
 	LAYOUT END
@@ -234,6 +223,35 @@ a {
 
 	.onpage {
 		color: #039ED3;
+	}
+
+/* ========== BUTTONS ========== */
+
+a.btn {
+	display: inline-block;
+	margin-top: 5em;
+	padding: 1em 2em;
+	border-radius: 1em;
+	border: 2px solid #FFFFFF;
+
+	h4 {
+		width: 100%;
+		color: #FFFFFF;
+	}
+}
+
+	a.btn:hover {
+		display: inline-block;
+		margin-top: 5em;
+		padding: 1em 2em;
+		border-radius: 1em;
+		border: 2px solid #FFFFFF;
+		background-color: #FFFFFF;
+
+		h4 {
+			width: 100%;
+			color: #039ED3;
+		}
 	}
 
 /* ================================================================ 
