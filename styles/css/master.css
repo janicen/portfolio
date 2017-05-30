@@ -59,6 +59,7 @@
 ================================================================  */
 .welcome-msg-about {
   height: auto;
+  margin-bottom: 2em;
   padding: 4em 6.8em 10em 6.8em;
   background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-profile-cover.jpg");
   background-size: cover;
@@ -105,6 +106,46 @@
 /* ================================================================ 
 	ABOUT PAGE END
 ================================================================  */
+/* ================================================================ 
+	INDEX PAGE START
+================================================================  */
+.welcome-msg-surrey {
+  height: auto;
+  margin-bottom: 2em;
+  padding: 4em 6.8em 10em 6.8em;
+  background: linear-gradient(rgba(83, 131, 0, 0.75), rgba(83, 131, 0, 0.75)), url("../../img/surrey1.jpg");
+  background-size: cover;
+  background-position: relative center;
+  color: #FFFFFF;
+  border-radius: 0 0 50% 50%;
+  text-align: center; }
+  .welcome-msg-surrey h4 {
+    font-style: italic; }
+
+.descriptions {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 5em;
+  border-bottom: 1px solid #939292; }
+  .descriptions h2 {
+    color: #039ED3; }
+
+.type, .role, .tools {
+  margin: 0 1em; }
+
+.overview {
+  text-align: center;
+  margin: 3em; }
+
+.gif {
+  text-align: center;
+  margin: 3em; }
+
 /* ================================================================ 
   BASE STYLE START 
 ================================================================  */
