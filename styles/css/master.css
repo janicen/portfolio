@@ -24,7 +24,7 @@
     line-height: 1.5em; }
 
 .surrey, .ibm, .farmooo, .sfu, .rayz {
-  height: auto;
+  height: 600px;
   background-size: cover;
   background-position: relative center;
   padding: 6em 6.8em;
@@ -208,25 +208,25 @@ header {
   height: auto;
   position: fixed;
   overflow: hidden;
-  padding: 0.5em 3em;
+  padding: 1em 3em;
   background-color: #FFFFFF;
   box-shadow: 0px 2px 10px rgba(147, 146, 146, 0.5);
   display: flex;
   align-items: center;
   justify-content: space-between; }
   header h3 {
-    font-weight: 700; }
+    font-weight: 600; }
   header nav {
-    font-size: 18px;
-    font-weight: 700; }
+    font-size: 20px;
+    font-weight: 600; }
   header li {
-    padding: 0 1.3em; }
+    padding: 0 1.5em; }
   header .logo {
     display: flex;
     align-items: center;
     justify-content: space-between; }
     header .logo .name {
-      padding-left: 0.8em; }
+      padding-left: 1em; }
 
 /* ========== FOOTER ========== */
 footer {
@@ -288,7 +288,7 @@ footer {
 /* ========== CONTENT ========== */
 .content {
   overflow: hidden;
-  padding-top: 65px; }
+  padding-top: 80px; }
 
 /* ================================================================ 
 	LAYOUT END
