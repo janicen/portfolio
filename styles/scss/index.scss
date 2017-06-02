@@ -5,7 +5,7 @@
 .welcome-msg-index {
 	height: auto;
 	margin-bottom: 2em;
-	padding: 4em 12em 10em 12em;
+	padding: 6em 25em 8em 25em;
 	background-image: url('../../img/bg-pattern.png');
 	background-size: cover;
 	background-position: relative center;
@@ -36,11 +36,15 @@
 	height: auto;
   	background-size: cover;
   	background-position: relative center;
-	padding: 4em 6.8em;
+	padding: 6em 6.8em;
 	color: #FFFFFF;
 
+	h1 {
+		margin-bottom: 0.2em;
+	}
+
 	h3 {
-		width: 50%;
+		width: 40%;
 	}
 }
 
@@ -72,4 +76,4 @@
 
 /* ================================================================ 
 	INDEX PAGE END
-================================================================  */
+================================================================ */

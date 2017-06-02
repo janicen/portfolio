@@ -23,24 +23,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 	h1 {
-		font-size: 48px;
-		font-weight: 700;
-		padding-bottom: 0.5em;
+		font-size: 64px;
+		font-weight: 600;
+		padding-bottom: 0.8em;
 	}
 
 	h2 {
-		font-size: 32px;
-		font-weight: 700;
+		font-size: 48px;
+		font-weight: 600;
 		padding-bottom: 1em;
 	}
 
 	h3 {
-		font-size: 24px;
+		font-size: 32px;
 		font-weight: 400;
 	}
 
 	h4 {
-		font-size: 18px;
+		font-size: 24px;
 		font-weight: 400;
 	}
 
@@ -59,7 +59,7 @@ li {
 }
 
 #bold {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /* ================================================================ 
@@ -93,7 +93,7 @@ header {
 
 
 	nav {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 700;
 	}
 
@@ -117,19 +117,20 @@ header {
 
 footer {
 	text-align: center;
-	margin: 2em 0;
+	margin: 4em 0;
 
-	h3 {
-		font-weight: 700;
-	}
-
-	h3, p {
-		padding-bottom: 1.5em;
+	h2, p {
 		color: #039ED3;
 	}
 
-	ul {
+
+	h2 {
+		font-weight: 700;
 		padding-bottom: 1.5em;
+	}
+
+	ul {
+		padding-bottom: 2em;
 	}
 
 	li {
@@ -190,7 +191,7 @@ footer {
 		width: 100px;
 		overflow: hidden;
 		margin: auto;
-		padding-top: 1.5em;
+		padding-top: 3em;
 		border-top: 2px solid #939292;
 	}
 
@@ -230,8 +231,8 @@ a {
 
 a.btn {
 	display: inline-block;
-	margin-top: 5em;
-	padding: 1em 2em;
+	margin: 5em 0 4em 0;
+	padding: 1em 3em;
 	border-radius: 1em;
 	border: 2px solid #FFFFFF;
 
@@ -244,7 +245,7 @@ a.btn {
 	a.btn:hover {
 		display: inline-block;
 		margin-top: 5em;
-		padding: 1em 2em;
+		padding: 1em 3em;
 		border-radius: 1em;
 		border: 2px solid #FFFFFF;
 		background-color: #FFFFFF;

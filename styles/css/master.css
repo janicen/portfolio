@@ -4,7 +4,7 @@
 .welcome-msg-index {
   height: auto;
   margin-bottom: 2em;
-  padding: 4em 12em 10em 12em;
+  padding: 6em 25em 8em 25em;
   background-image: url('../../img/bg-pattern.png');
   background-size: cover;
   background-position: relative center;
@@ -27,10 +27,12 @@
   height: auto;
   background-size: cover;
   background-position: relative center;
-  padding: 4em 6.8em;
+  padding: 6em 6.8em;
   color: #FFFFFF; }
+  .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
+    margin-bottom: 0.2em; }
   .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-    width: 50%; }
+    width: 40%; }
 
 .surrey {
   background: linear-gradient(rgba(83, 131, 0, 0.75), rgba(83, 131, 0, 0.75)), url("../../img/surrey-cover.jpg"); }
@@ -53,7 +55,7 @@
 
 /* ================================================================ 
 	INDEX PAGE END
-================================================================  */
+================================================================ */
 /* ================================================================ 
 	ABOUT PAGE START
 ================================================================  */
@@ -163,21 +165,21 @@ html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p {
   padding: 0; }
 
 h1 {
-  font-size: 48px;
-  font-weight: 700;
-  padding-bottom: 0.5em; }
+  font-size: 64px;
+  font-weight: 600;
+  padding-bottom: 0.8em; }
 
 h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 600;
   padding-bottom: 1em; }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400; }
 
 h4 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400; }
 
 p {
@@ -192,7 +194,7 @@ li {
   display: inline-block; }
 
 #bold {
-  font-weight: 700; }
+  font-weight: 600; }
 
 /* ================================================================ 
 	BASE STYLE END
@@ -215,7 +217,7 @@ header {
   header h3 {
     font-weight: 700; }
   header nav {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700; }
   header li {
     padding: 0 1.3em; }
@@ -229,14 +231,14 @@ header {
 /* ========== FOOTER ========== */
 footer {
   text-align: center;
-  margin: 2em 0; }
-  footer h3 {
-    font-weight: 700; }
-  footer h3, footer p {
-    padding-bottom: 1.5em;
+  margin: 4em 0; }
+  footer h2, footer p {
     color: #039ED3; }
-  footer ul {
+  footer h2 {
+    font-weight: 700;
     padding-bottom: 1.5em; }
+  footer ul {
+    padding-bottom: 2em; }
   footer li {
     padding: 0 1em; }
 
@@ -280,7 +282,7 @@ footer {
   width: 100px;
   overflow: hidden;
   margin: auto;
-  padding-top: 1.5em;
+  padding-top: 3em;
   border-top: 2px solid #939292; }
 
 /* ========== CONTENT ========== */
@@ -308,8 +310,8 @@ a:hover {
 /* ========== BUTTONS ========== */
 a.btn {
   display: inline-block;
-  margin-top: 5em;
-  padding: 1em 2em;
+  margin: 5em 0 4em 0;
+  padding: 1em 3em;
   border-radius: 1em;
   border: 2px solid #FFFFFF; }
   a.btn h4 {
@@ -319,7 +321,7 @@ a.btn {
 a.btn:hover {
   display: inline-block;
   margin-top: 5em;
-  padding: 1em 2em;
+  padding: 1em 3em;
   border-radius: 1em;
   border: 2px solid #FFFFFF;
   background-color: #FFFFFF; }
