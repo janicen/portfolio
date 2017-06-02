@@ -5,16 +5,24 @@
 .welcome-msg-about {
 	height: auto;
 	margin-bottom: 2em;
-	padding: 4em 6.8em 10em 6.8em;
+	padding: 6em 6.8em 12em 6.8em;
 	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-profile-cover.jpg");
 	background-size: cover;
 	background-position: relative center;
 	color: #FFFFFF;
 	border-radius: 0 0 50% 50%;
+
+	h1 {
+		padding-bottom: 0.2em;
+	}
+
+	h3 {
+		width: 50%;
+	}
 }
 
 .who-am-i {
-	padding: 3em 6.8em;
+	padding: 3em 6.8em 5em 6.8em;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -24,29 +32,34 @@
 	}
 
 	.who-am-i-text {
-		width: auto;
+		width: 60%;
 		margin-right: 10em;
 
 	}
 
 	.me-img {
 		width: 100%;
-		max-width: 250px;
+		max-width: 300px;
+		overflow: hidden;
 		margin-right: 5em;
-		// padding-top: 5em;
 	}
 }
 
 .why-i-design {
-	padding: 4em 6.8em;
+	padding: 5em 6.8em;
 	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-items.jpg");
 	background-size: cover;
 	background-position: center center;
 	color: #FFFFFF;
+
+	h4 {
+		width: 80%;
+	}
+
 }
 
 .resume {
-	padding: 1em 0;
+	padding: 3em 0;
 
 	h3 {
 		text-align: center;
@@ -54,7 +67,7 @@
 }
 
 .closing-remarks {
-	padding: 2em 0;
+	padding: 3em 0;
 	background-color: #039ED3;
 
 	h3 {
