@@ -1,88 +1,27 @@
 /* ================================================================ 
-	INDEX PAGE START
+	MYSURREY PORTAL PAGE START
 ================================================================  */
 
 .welcome-msg-surrey {
-	height: auto;
-	margin-bottom: 2em;
-	padding: 6em 6.8em 10em 6.8em;
 	background: linear-gradient(rgba(83,131,0,0.75),rgba(83,131,0,0.75)),url("../../img/surrey1.jpg");
 	background-size: cover;
 	background-position: relative center;
-	color: #FFFFFF;
 	border-radius: 0 0 50% 50%;
+	height: auto;
 	text-align: center;
-
-	p {
-		font-style: italic;
-	}
-}
-
-.descriptions {
-	width: 1200px;
-	margin: auto;
-	display: flex;
-	align-items: top;
-	justify-content: space-between;
-	text-align: center;
+	color: #FFFFFF;
 	margin-bottom: 2em;
-	padding-bottom: 5em;
-	border-bottom: 1px solid #939292;
+	padding: 6em 6.8em 10em 6.8em;
 
-	h3 {
-		padding-bottom: 0.5em;
-		color: #039ED3;
-	}
-
-}
-
-	.type, .role, .tools {
-		width: 33%;
-		margin: 0 2em;
-	}
-
-.overview {
-	text-align: center;
-	margin: 3em 15em;
-}
-
-.gif {
-	text-align: center;
-	margin: 3em;
-}
-
-.objective {
-	padding: 5em 15em;
-	background-color: #E4E4E4;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	h2 {
-		margin-right: 3em;
-		padding-bottom: 0;
+	h4 {
+		font-style: italic;
 	}
 }
 
 .process {
 
-	p {
-		padding: 3em 15em;
-	}
-
 	.images-row1, .images-row2 {
-		margin: 3em 3em;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-
-		img {
-			width: 50%;
-		}
-	}
-
-	.image-slide {
-		background-color: #E4E4E4;
+		margin: 3em 3em 0 3em;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -93,32 +32,22 @@
 	}
 
 	.image-caption {
+		background-color: #E4E4E4;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			width: 50%;
+		}
+	}
+
+	.caption {
 		padding: 5em;
 
 		h3 {
 			padding-bottom: 2em;
 		}
 	}
-
-	.images2 {
-		margin: 1em 10em;
-	}
-
-	.images3 {
-		text-align: center;
-	}
-}
-
-.project-navigation {
-	text-align: center;
-	padding: 3em 0;
-	background-color: #039ED3;
-
-	a {
-		color: #FFFFFF;
-	}
-		a:hover {
-			color:#FFFFFF;
-		}
 }
 

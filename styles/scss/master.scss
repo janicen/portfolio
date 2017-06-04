@@ -268,6 +268,84 @@ a.btn {
 
 
 
+/* ================================================================ 
+	WORKS START
+================================================================  */
 
+.descriptions {
+	width: 1200px;
+	margin: auto;
+	padding: 3em;
+	text-align: center;
+	border-bottom: 1px solid #939292;
+
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+
+	h3 {
+		padding-bottom: 0.5em;
+		color: #039ED3;
+	}
+
+}
+
+	.type, .role, .tools {
+		width: 33%;
+		margin: 0 2em;
+	}
+
+.overview {
+	text-align: center;
+	margin: 3em 20em;
+}
+
+.gif {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.objective {
+	background-color: #E4E4E4;
+	padding: 5em 15em;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	h2 {
+		margin-right: 3em;
+		padding-bottom: 0;
+	}
+}
+
+.process {
+
+	h4 {
+		padding: 5em 20em;
+	}
+
+	.images {
+		text-align: center;
+		margin: 0 20em;
+	}
+}
+
+.project-navigation {
+	text-align: center;
+	padding: 3em 0;
+	background-color: #039ED3;
+
+	a {
+		color: #FFFFFF;
+	}
+		a:hover {
+			color:#FFFFFF;
+		}
+}
+
+/* ================================================================ 
+	WORKS END
+================================================================  */
 
 
