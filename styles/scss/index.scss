@@ -3,13 +3,13 @@
 ================================================================  */
 
 .welcome-msg-index {
-	height: auto;
-	margin-bottom: 2em;
-	padding: 6em 18em 8em 18em;
 	background-image: url('../../img/bg-pattern.png');
 	background-size: cover;
 	background-position: relative center;
 	border-radius: 0 0 50% 50%;
+	height: auto;
+	margin-bottom: 2em;
+	padding: 5em 25em 5em 25em;
 
 	display: flex;
 	align-items: center;
@@ -22,7 +22,6 @@
 	}
 
 	h1 {
-		font-size: 64px;
 		margin-right: 2em;
 		padding-bottom: 0;
 	}
@@ -33,11 +32,11 @@
 }
 
 .surrey, .ibm, .farmooo, .sfu, .rayz {
-	height: auto;
   	background-size: cover;
   	background-position: relative center;
-	padding: 6em 6.8em;
-	color: #FFFFFF;
+  	height: auto;
+  	color: #FFFFFF;
+	padding: 5em 6.8em;
 
 	h1 {
 		margin-bottom: 0.2em;
