@@ -19,15 +19,13 @@
   .welcome-msg-index h1 {
     margin-right: 2em;
     padding-bottom: 0; }
-  .welcome-msg-index h3 {
-    line-height: 1.5em; }
 
 .surrey, .ibm, .farmooo, .sfu, .rayz {
   background-size: cover;
   background-position: relative center;
   height: auto;
   color: #FFFFFF;
-  padding: 5em 6.8em; }
+  padding: 5em 6.5em; }
   .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
     margin-bottom: 0.2em; }
   .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
@@ -59,21 +57,22 @@
 	ABOUT PAGE START
 ================================================================  */
 .welcome-msg-about {
-  height: auto;
-  margin-bottom: 2em;
-  padding: 6em 6.8em 12em 6.8em;
   background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-profile-cover.jpg");
   background-size: cover;
   background-position: relative center;
-  color: #FFFFFF;
-  border-radius: 0 0 50% 50%; }
+  border-radius: 0 0 50% 50%;
+  height: auto;
+  margin-bottom: 2em;
+  padding: 6em 6.8em 12em 6.8em;
+  color: #FFFFFF; }
   .welcome-msg-about h1 {
     padding-bottom: 0.2em; }
   .welcome-msg-about h3 {
-    width: 50%; }
+    width: 50%;
+    line-height: 1.5em; }
 
 .who-am-i {
-  padding: 3em 6.8em 5em 6.8em;
+  padding: 3em 6.5em 5em 6.5em;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -83,19 +82,19 @@
     width: 60%;
     margin-right: 10em; }
   .who-am-i .me-img {
+    overflow: hidden;
     width: 100%;
     max-width: 300px;
-    overflow: hidden;
     margin-right: 5em; }
 
 .why-i-design {
-  padding: 5em 6.8em;
   background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-items.jpg");
   background-size: cover;
   background-position: center center;
+  padding: 5em 6.5em;
   color: #FFFFFF; }
   .why-i-design h4 {
-    width: 80%; }
+    width: 60%; }
 
 .resume {
   padding: 3em 0; }
@@ -103,12 +102,12 @@
     text-align: center; }
 
 .closing-remarks {
-  padding: 3em 0;
-  background-color: #039ED3; }
+  background-color: #039ED3;
+  padding: 3em 0; }
   .closing-remarks h3 {
+    text-align: center;
     width: 50%;
     margin: auto;
-    text-align: center;
     color: #FFFFFF; }
 
 /* ================================================================ 
@@ -228,11 +227,13 @@ h2 {
 
 h3 {
   font-size: 32px;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 1.5; }
 
 h4 {
   font-size: 24px;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 1.5em; }
 
 p {
   font-weight: 400; }
@@ -342,7 +343,7 @@ footer {
 /* ========== CONTENT ========== */
 .content {
   overflow: hidden;
-  padding-top: 80px; }
+  padding-top: 70px; }
 
 /* ================================================================ 
 	LAYOUT END

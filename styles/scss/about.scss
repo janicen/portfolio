@@ -3,14 +3,14 @@
 ================================================================  */
 
 .welcome-msg-about {
-	height: auto;
-	margin-bottom: 2em;
-	padding: 6em 6.8em 12em 6.8em;
 	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-profile-cover.jpg");
 	background-size: cover;
 	background-position: relative center;
-	color: #FFFFFF;
 	border-radius: 0 0 50% 50%;
+	height: auto;
+	margin-bottom: 2em;
+	padding: 6em 6.8em 12em 6.8em;
+	color: #FFFFFF;
 
 	h1 {
 		padding-bottom: 0.2em;
@@ -18,11 +18,13 @@
 
 	h3 {
 		width: 50%;
+		line-height: 1.5em;
 	}
 }
 
 .who-am-i {
-	padding: 3em 6.8em 5em 6.8em;
+	padding: 3em 6.5em 5em 6.5em;
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -38,22 +40,22 @@
 	}
 
 	.me-img {
+		overflow: hidden;
 		width: 100%;
 		max-width: 300px;
-		overflow: hidden;
 		margin-right: 5em;
 	}
 }
 
 .why-i-design {
-	padding: 5em 6.8em;
 	background: linear-gradient(rgba(42,44,123,0.75),rgba(3,158,211,0.75)),url("../../img/about-items.jpg");
 	background-size: cover;
 	background-position: center center;
+	padding: 5em 6.5em;
 	color: #FFFFFF;
 
 	h4 {
-		width: 80%;
+		width: 60%;
 	}
 
 }
@@ -67,13 +69,13 @@
 }
 
 .closing-remarks {
-	padding: 3em 0;
 	background-color: #039ED3;
+	padding: 3em 0;
 
 	h3 {
+		text-align: center;
 		width: 50%;
 		margin: auto;
-		text-align: center;
 		color: #FFFFFF;
 	}
 }
