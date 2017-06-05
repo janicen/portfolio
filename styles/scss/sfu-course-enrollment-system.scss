@@ -1,9 +1,9 @@
 /* ================================================================ 
-	MYSURREY PORTAL PAGE START
+	SFU COURSE ENROLLMENT SYSTEM PAGE START
 ================================================================  */
 
-.welcome-msg-surrey {
-	background: linear-gradient(rgba(83,131,0,0.75),rgba(83,131,0,0.75)),url("../../img/surrey1.jpg");
+.welcome-msg-sfu {
+	background: linear-gradient(rgba(166,25,46,0.75),rgba(166,25,46,0.75)),url("../../img/sfu1.jpg");
 	background-size: cover;
 	background-position: relative center;
 	border-radius: 0 0 50% 50%;
@@ -15,6 +15,10 @@
 
 	h4 {
 		font-style: italic;
+	}
+
+	img {
+		margin-top: 2em;
 	}
 }
 
@@ -30,29 +34,10 @@
 			width: 50%;
 		}
 	}
-
-	.image-caption {
-		background-color: #E4E4E4;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-
-		img {
-			width: 50%;
-		}
-	}
-
-	.caption {
-		padding: 5em;
-
-		h3 {
-			padding-bottom: 2em;
-		}
-	}
 }
 
-.project-nav-ibm {
-	background: linear-gradient(rgba(3,158,211,0.75),rgba(3,158,211,0.75)),url("../../img/ibm-cover.jpg");	
-	background-position: center center;
+.project-nav-rayz {
+	background: linear-gradient(rgba(3,158,211,0.75),rgba(3,158,211,0.75)),url("../../img/rayz-cover.jpg");	
+	background-position: bottom center;
 }
 

@@ -1,0 +1,39 @@
+/* ================================================================ 
+	REPORT SAMPLES PAGE START
+================================================================  */
+
+.welcome-msg-ibm {
+	background: linear-gradient(rgba(0,63,105,0.75),rgba(0,63,105,0.75)),url("../../img/ibm1.jpg");
+	background-size: cover;
+	background-position: relative center;
+	border-radius: 0 0 50% 50%;
+	height: auto;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 2em;
+	padding: 6em 6.8em 10em 6.8em;
+
+	h4 {
+		font-style: italic;
+	}
+}
+
+.process {
+
+	.images-row1 {
+		margin: 3em 3em 0 3em;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			width: 50%;
+		}
+	}
+}
+
+.project-nav-farmooo {
+	background: linear-gradient(rgba(3,158,211,0.75),rgba(3,158,211,0.75)),url("../../img/farmooo-cover.jpg");	
+	background-position: top center;
+}
+

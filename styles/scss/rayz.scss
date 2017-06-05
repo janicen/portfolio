@@ -1,0 +1,29 @@
+/* ================================================================ 
+	RAYZ PAGE START
+================================================================  */
+
+.welcome-msg-rayz {
+	background: linear-gradient(rgba(6,166,255,0.75),rgba(6,166,255,0.75)),url("../../img/rayz1.jpg");
+	background-size: cover;
+	background-position: relative center;
+	border-radius: 0 0 50% 50%;
+	height: auto;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 2em;
+	padding: 6em 6.8em 10em 6.8em;
+
+	h4 {
+		font-style: italic;
+	}
+
+	img {
+		margin-top: 2em;
+	}
+}
+
+.project-nav-surrey {
+	background: linear-gradient(rgba(3,158,211,0.75),rgba(3,158,211,0.75)),url("../../img/surrey-cover.jpg");	
+	background-position: top center;
+}
+

@@ -1,0 +1,52 @@
+/* ================================================================ 
+	FARMOOO PAGE START
+================================================================  */
+
+.welcome-msg-farmooo {
+	background: linear-gradient(rgba(130,92,37,0.75),rgba(130,92,37,0.75)),url("../../img/farmooo1.jpg");
+	background-size: cover;
+	background-position: relative center;
+	border-radius: 0 0 50% 50%;
+	height: auto;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 2em;
+	padding: 6em 6.8em 10em 6.8em;
+
+	h4 {
+		font-style: italic;
+	}
+
+	img {
+		margin-top: 2em;
+	}
+}
+
+.process {
+
+	.images-row1 {
+		margin: 3em 3em 0 3em;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			width: 50%;
+		}
+	}
+}
+
+.press-release {
+	padding: 5em 6.5em;
+
+	li {
+		font-size: 24px;
+		padding: 1em 0;
+	}
+}
+
+.project-nav-sfu {
+	background: linear-gradient(rgba(3,158,211,0.75),rgba(3,158,211,0.75)),url("../../img/sfu-cover.jpg");	
+	background-position: top center;
+}
+

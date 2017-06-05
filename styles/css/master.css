@@ -148,6 +148,126 @@
   .process .caption h3 {
     padding-bottom: 2em; }
 
+.project-nav-ibm {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/ibm-cover.jpg");
+  background-position: center center; }
+
+/* ================================================================ 
+	REPORT SAMPLES PAGE START
+================================================================  */
+.welcome-msg-ibm {
+  background: linear-gradient(rgba(0, 63, 105, 0.75), rgba(0, 63, 105, 0.75)), url("../../img/ibm1.jpg");
+  background-size: cover;
+  background-position: relative center;
+  border-radius: 0 0 50% 50%;
+  height: auto;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 2em;
+  padding: 6em 6.8em 10em 6.8em; }
+  .welcome-msg-ibm h4 {
+    font-style: italic; }
+
+.process .images-row1 {
+  margin: 3em 3em 0 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .process .images-row1 img {
+    width: 50%; }
+
+.project-nav-farmooo {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/farmooo-cover.jpg");
+  background-position: top center; }
+
+/* ================================================================ 
+	FARMOOO PAGE START
+================================================================  */
+.welcome-msg-farmooo {
+  background: linear-gradient(rgba(130, 92, 37, 0.75), rgba(130, 92, 37, 0.75)), url("../../img/farmooo1.jpg");
+  background-size: cover;
+  background-position: relative center;
+  border-radius: 0 0 50% 50%;
+  height: auto;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 2em;
+  padding: 6em 6.8em 10em 6.8em; }
+  .welcome-msg-farmooo h4 {
+    font-style: italic; }
+  .welcome-msg-farmooo img {
+    margin-top: 2em; }
+
+.process .images-row1 {
+  margin: 3em 3em 0 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .process .images-row1 img {
+    width: 50%; }
+
+.press-release {
+  padding: 5em 6.5em; }
+  .press-release li {
+    font-size: 24px;
+    padding: 1em 0; }
+
+.project-nav-sfu {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/sfu-cover.jpg");
+  background-position: top center; }
+
+/* ================================================================ 
+	SFU COURSE ENROLLMENT SYSTEM PAGE START
+================================================================  */
+.welcome-msg-sfu {
+  background: linear-gradient(rgba(166, 25, 46, 0.75), rgba(166, 25, 46, 0.75)), url("../../img/sfu1.jpg");
+  background-size: cover;
+  background-position: relative center;
+  border-radius: 0 0 50% 50%;
+  height: auto;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 2em;
+  padding: 6em 6.8em 10em 6.8em; }
+  .welcome-msg-sfu h4 {
+    font-style: italic; }
+  .welcome-msg-sfu img {
+    margin-top: 2em; }
+
+.process .images-row1, .process .images-row2 {
+  margin: 3em 3em 0 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .process .images-row1 img, .process .images-row2 img {
+    width: 50%; }
+
+.project-nav-rayz {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/rayz-cover.jpg");
+  background-position: bottom center; }
+
+/* ================================================================ 
+	RAYZ PAGE START
+================================================================  */
+.welcome-msg-rayz {
+  background: linear-gradient(rgba(6, 166, 255, 0.75), rgba(6, 166, 255, 0.75)), url("../../img/rayz1.jpg");
+  background-size: cover;
+  background-position: relative center;
+  border-radius: 0 0 50% 50%;
+  height: auto;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 2em;
+  padding: 6em 6.8em 10em 6.8em; }
+  .welcome-msg-rayz h4 {
+    font-style: italic; }
+  .welcome-msg-rayz img {
+    margin-top: 2em; }
+
+.project-nav-surrey {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/surrey-cover.jpg");
+  background-position: top center; }
+
 /* ================================================================ 
   BASE STYLE START 
 ================================================================  */
@@ -156,8 +276,8 @@ html, body {
   height: auto;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #000000;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  color: #000000; }
 
 html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p {
   border: 0;
@@ -206,20 +326,20 @@ li {
 ================================================================  */
 /* ========== HEADER ========== */
 header {
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(147, 146, 146, 0.5);
   width: 95%;
   height: auto;
   position: fixed;
   overflow: hidden;
-  padding: 0.5em 3em;
-  background-color: #FFFFFF;
-  box-shadow: 0px 2px 10px rgba(147, 146, 146, 0.5);
+  padding: 0.6em 3em;
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  header h3 {
+  header h4 {
     font-weight: 600; }
   header nav {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600; }
   header li {
     padding: 0 1.5em; }
@@ -229,6 +349,10 @@ header {
     justify-content: space-between; }
     header .logo .name {
       padding-left: 1em; }
+  header a.logo {
+    color: #000000; }
+  header a.logo:hover {
+    color: #000000; }
 
 /* ========== FOOTER ========== */
 footer {
@@ -285,9 +409,9 @@ footer {
 .footerwrapper {
   width: 100px;
   overflow: hidden;
+  border-top: 2px solid #939292;
   margin: auto;
-  padding-top: 3em;
-  border-top: 2px solid #939292; }
+  padding-top: 3em; }
 
 /* ========== CONTENT ========== */
 .content {
@@ -323,12 +447,12 @@ a.btn {
     color: #FFFFFF; }
 
 a.btn:hover {
+  background-color: #FFFFFF;
+  border-radius: 1em;
   display: inline-block;
   margin-top: 5em;
   padding: 1em 3em;
-  border-radius: 1em;
-  border: 2px solid #FFFFFF;
-  background-color: #FFFFFF; }
+  border: 2px solid #FFFFFF; }
   a.btn:hover h4 {
     width: 100%;
     color: #039ED3; }
@@ -341,16 +465,16 @@ a.btn:hover {
 ================================================================  */
 .descriptions {
   width: 1200px;
-  margin: auto;
-  padding: 3em;
   text-align: center;
+  margin: auto;
+  padding: 4em;
   border-bottom: 1px solid #939292;
   display: flex;
   align-items: top;
   justify-content: space-between; }
   .descriptions h3 {
-    padding-bottom: 0.5em;
-    color: #039ED3; }
+    color: #039ED3;
+    padding-bottom: 0.5em; }
 
 .type, .role, .tools {
   width: 33%;
@@ -378,16 +502,25 @@ a.btn:hover {
   padding: 5em 20em; }
 .process .images {
   text-align: center;
-  margin: 0 20em; }
+  margin: 0 10em; }
 
-.project-navigation {
+.project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
+  display: block;
   text-align: center;
-  padding: 3em 0;
-  background-color: #039ED3; }
-  .project-navigation a {
-    color: #FFFFFF; }
-  .project-navigation a:hover {
-    color: #FFFFFF; }
+  padding: 5em 0; }
+  .project-nav-ibm h3, .project-nav-farmooo h3, .project-nav-sfu h3, .project-nav-rayz h3, .project-nav-surrey h3 {
+    margin-top: 1em; }
+
+a.project-nav-ibm, a.project-nav-farmooo, a.project-nav-sfu, a.project-nav-rayz, a.project-nav-surrey {
+  color: #FFFFFF; }
+
+a.project-nav-ibm:hover, a.project-nav-farmooo:hover, a.project-nav-sfu:hover, a.project-nav-rayz:hover, a.project-nav-surrey:hover {
+  color: #FFFFFF; }
+
+.top {
+  text-align: center;
+  overflow: hidden;
+  padding: 3em; }
 
 /* ================================================================ 
 	WORKS END
