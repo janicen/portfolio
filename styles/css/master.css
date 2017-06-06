@@ -91,10 +91,18 @@
   background: linear-gradient(rgba(42, 44, 123, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/about-items.jpg");
   background-size: cover;
   background-position: center center;
-  padding: 5em 6.5em;
-  color: #FFFFFF; }
+  padding: 5em 6.5em 5em 6.5em;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
   .why-i-design h4 {
-    width: 60%; }
+    width: 85%; }
+  .why-i-design .diagram-process {
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    margin-right: 5em; }
 
 .resume {
   padding: 3em 0; }
