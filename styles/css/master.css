@@ -127,13 +127,13 @@
 .welcome-msg-surrey {
   background: linear-gradient(rgba(83, 131, 0, 0.75), rgba(83, 131, 0, 0.75)), url("../../img/surrey1.jpg");
   background-size: cover;
-  background-position: relative center;
+  background-position: bottom center;
   border-radius: 0 0 50% 50%;
-  height: auto;
+  height: 350px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 2em;
-  padding: 6em 6.8em 10em 6.8em; }
+  padding: 6em 6.8em 0 6.8em; }
   .welcome-msg-surrey h4 {
     font-style: italic; }
 
@@ -168,11 +168,11 @@
   background-size: cover;
   background-position: relative center;
   border-radius: 0 0 50% 50%;
-  height: auto;
+  height: 350px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 2em;
-  padding: 6em 6.8em 10em 6.8em; }
+  padding: 6em 6.8em 0 6.8em; }
   .welcome-msg-ibm h4 {
     font-style: italic; }
 
@@ -196,11 +196,11 @@
   background-size: cover;
   background-position: relative center;
   border-radius: 0 0 50% 50%;
-  height: auto;
+  height: 350px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 2em;
-  padding: 6em 6.8em 10em 6.8em; }
+  padding: 6em 6.8em 0 6.8em; }
   .welcome-msg-farmooo h4 {
     font-style: italic; }
   .welcome-msg-farmooo img {
@@ -230,13 +230,13 @@
 .welcome-msg-sfu {
   background: linear-gradient(rgba(166, 25, 46, 0.75), rgba(166, 25, 46, 0.75)), url("../../img/sfu1.jpg");
   background-size: cover;
-  background-position: relative center;
+  background-position: bottom center;
   border-radius: 0 0 50% 50%;
-  height: auto;
+  height: 350px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 2em;
-  padding: 6em 6.8em 10em 6.8em; }
+  padding: 6em 6.8em 0 6.8em; }
   .welcome-msg-sfu h4 {
     font-style: italic; }
   .welcome-msg-sfu img {
@@ -260,13 +260,13 @@
 .welcome-msg-rayz {
   background: linear-gradient(rgba(6, 166, 255, 0.75), rgba(6, 166, 255, 0.75)), url("../../img/rayz1.jpg");
   background-size: cover;
-  background-position: relative center;
+  background-position: bottom center;
   border-radius: 0 0 50% 50%;
-  height: auto;
+  height: 350px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 2em;
-  padding: 6em 6.8em 10em 6.8em; }
+  padding: 6em 6.8em 0 6.8em; }
   .welcome-msg-rayz h4 {
     font-style: italic; }
   .welcome-msg-rayz img {
