@@ -549,6 +549,8 @@ a#video-btn:hover {
 .process .images {
   text-align: center;
   margin: 0 10em; }
+  .process .images img {
+    padding-bottom: 1em; }
 
 .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
   display: block;
