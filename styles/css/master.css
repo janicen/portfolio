@@ -1,3 +1,9 @@
+/*
+
+	Janice Ng's Portfolio
+	CSS: Home Page
+
+*/
 /* ================================================================ 
 	INDEX PAGE START
 ================================================================  */
@@ -53,6 +59,12 @@
 /* ================================================================ 
 	INDEX PAGE END
 ================================================================ */
+/*
+
+	Janice Ng's Portfolio
+	CSS: About Page
+
+*/
 /* ================================================================ 
 	ABOUT PAGE START
 ================================================================  */
@@ -121,6 +133,12 @@
 /* ================================================================ 
 	ABOUT PAGE END
 ================================================================  */
+/*
+
+	Janice Ng's Portfolio
+	CSS: Works Page - MySurrey Portal
+
+*/
 /* ================================================================ 
 	MYSURREY PORTAL PAGE START
 ================================================================  */
@@ -160,6 +178,12 @@
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/ibm-cover.jpg");
   background-position: center center; }
 
+/*
+
+	Janice Ng's Portfolio
+	CSS: Works Page - Report Samples
+
+*/
 /* ================================================================ 
 	REPORT SAMPLES PAGE START
 ================================================================  */
@@ -188,6 +212,12 @@
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/farmooo-cover.jpg");
   background-position: top center; }
 
+/*
+
+	Janice Ng's Portfolio
+	CSS: Works Page - Farmooo
+
+*/
 /* ================================================================ 
 	FARMOOO PAGE START
 ================================================================  */
@@ -224,6 +254,12 @@
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/sfu-cover.jpg");
   background-position: top center; }
 
+/*
+
+	Janice Ng's Portfolio
+	CSS: Works Page - SFU Course Enrollment System
+
+*/
 /* ================================================================ 
 	SFU COURSE ENROLLMENT SYSTEM PAGE START
 ================================================================  */
@@ -254,6 +290,12 @@
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/rayz-cover.jpg");
   background-position: bottom center; }
 
+/*
+
+	Janice Ng's Portfolio
+	CSS: Works Page - Rayz
+
+*/
 /* ================================================================ 
 	RAYZ PAGE START
 ================================================================  */
@@ -276,6 +318,12 @@
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/surrey-cover.jpg");
   background-position: top center; }
 
+/*
+
+	Janice Ng's Portfolio
+	CSS: Master
+
+*/
 /* ================================================================ 
   BASE STYLE START 
 ================================================================  */
@@ -378,6 +426,7 @@ footer {
   footer li {
     padding: 0 1em; }
 
+/* ========== ICONS ========== */
 .dribbble-hover img:last-child {
   display: none; }
 
@@ -428,12 +477,12 @@ footer {
 
 /* ========== POPUP OVERLAY ========== */
 .overlay {
+  background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.75);
   visibility: hidden;
   opacity: 0; }
 
@@ -453,6 +502,7 @@ footer {
   top: 0.5em;
   right: 2em; }
 
+/* ========== VIDEO ========== */
 .video embed {
   width: 100%;
   height: 100%;
@@ -497,10 +547,11 @@ a.btn:hover {
     width: 100%;
     color: #039ED3; }
 
-a#video-btn {
+/* ========== VIDEO PLAY BUTTONS ========== */
+a#play {
   opacity: 1; }
 
-a#video-btn:hover {
+a#play:hover {
   opacity: 0.5; }
 
 /* ================================================================ 
@@ -509,6 +560,7 @@ a#video-btn:hover {
 /* ================================================================ 
 	WORKS START
 ================================================================  */
+/* ========== DESCRIPTIONS ========== */
 .descriptions {
   width: 1200px;
   text-align: center;
@@ -526,14 +578,17 @@ a#video-btn:hover {
   width: 33%;
   margin: 0 2em; }
 
+/* ========== OVERVIEW ========== */
 .overview {
   text-align: center;
   margin: 3em 20em; }
 
+/* ========== GIF ========== */
 .gif {
   text-align: center;
   margin-bottom: 3em; }
 
+/* ========== OBJECTIVE ========== */
 .objective {
   background-color: #E4E4E4;
   padding: 5em 15em;
@@ -544,6 +599,7 @@ a#video-btn:hover {
     margin-right: 3em;
     padding-bottom: 0; }
 
+/* ========== PROCESS ========== */
 .process h4 {
   padding: 5em 20em; }
 .process .images {
@@ -552,6 +608,7 @@ a#video-btn:hover {
   .process .images img {
     padding-bottom: 1em; }
 
+/* ========== PROJECT NAV ========== */
 .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
   display: block;
   text-align: center;
@@ -565,6 +622,7 @@ a.project-nav-ibm, a.project-nav-farmooo, a.project-nav-sfu, a.project-nav-rayz,
 a.project-nav-ibm:hover, a.project-nav-farmooo:hover, a.project-nav-sfu:hover, a.project-nav-rayz:hover, a.project-nav-surrey:hover {
   color: #FFFFFF; }
 
+/* ========== RETURN TOP ========== */
 .top {
   text-align: center;
   overflow: hidden;
