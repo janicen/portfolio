@@ -7,7 +7,7 @@
 /* ================================================================ 
 	[LAPTOP MEDIA QUERY START]   
 ================================================================  */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1700px) {
   /* ========== BASE ========== */
   html, body {
     background-size: 100%; }
@@ -23,54 +23,49 @@
 	[LAPTOP MEDIA QUERY END]   
 ================================================================  */
 /* ================================================================ 
-	[TABLET LANDSCAPE MEDIA QUERY START]   
+	[TABLET MEDIA QUERY START]   
 ================================================================  */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* ========== BASE ========== */
   html, body {
-    background-size: 100%; }
-  /* ========== HOME PAGE ========== */
-  .welcome-msg-index {
-    padding: 5em; }
-    .welcome-msg-index h1 {
-      margin-right: 1em; }
-  .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
-    margin-bottom: 0; }
-  .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-    width: 70%; } }
-
-/* ================================================================ 
-	[TABLET LANDSCAPE MEDIA QUERY END]   
-================================================================  */
-/* ================================================================ 
-	[TABLET PORTRAIT MEDIA QUERY START]   
-================================================================  */
-@media only screen and (min-width: 668px) and (max-width: 768px) {
-  /* ========== BASE ========== */
-  html, body {
-    background-size: 100%; }
+    background-size: 100%;
+    font-size: 16px;
+    background-color: orange; }
+  h1 {
+    font-size: 48px; }
+  h2 {
+    font-size: 36px; }
+  h3 {
+    font-size: 24px; }
+  h4 {
+    font-size: 20px; }
+  header {
+    width: 95%; }
+  .content {
+    padding-top: 68px; }
   /* ========== HOME PAGE ========== */
   .welcome-msg-index {
     padding: 3em; }
     .welcome-msg-index h1 {
       margin-right: 1em; }
-  .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
-    margin-bottom: 0; }
-  .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-    width: 100%; } }
+  .surrey, .ibm, .farmooo, .sfu, .rayz {
+    padding: 3em 4.5em; }
+    .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
+      margin-bottom: 0; }
+    .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
+      width: 60%; } }
 
 /* ================================================================ 
-	[TABLET PORTRAIT MEDIA QUERY END]   
+	[TABLET MEDIA QUERY END]   
 ================================================================  */
 /* ================================================================ 
 	[MOBILE MEDIA QUERY START]   
 ================================================================  */
-@media only screen and (min-width: 320px) and (max-width: 736px) {
+@media only screen and (min-width: 318px) and (max-width: 767px) {
   /* ========== BASE ========== */
   html, body {
     background-size: 100%;
     font-size: 16px; }
-  /* TEXT */
   h1 {
     font-size: 32px; }
   h2 {
@@ -83,25 +78,34 @@
   header {
     padding: 0.6em 1em; }
     header li {
-      padding: 0 1.5em; }
+      padding: 0 1em 0 0.5em; }
     header .name {
       display: none; }
   footer li {
     padding: 0 0.5em; }
+  footer p {
+    font-size: 16px; }
+  footer img {
+    width: 48px; }
   /* ========== BUTTONS ========== */
   a.btn {
-    margin: 4em 0 3em 0; }
+    margin: 3em 0 2em 0; }
   a.btn:hover {
-    margin-top: 4em; }
+    margin-top: 3em; }
   /* ========== HOME PAGE ========== */
   .welcome-msg-index {
-    padding: 3em; }
+    display: block;
+    padding: 2em; }
+    .welcome-msg-index h1 {
+      padding-bottom: 0.5em; }
   .surrey, .ibm, .farmooo, .sfu, .rayz {
-    padding: 3em; }
+    padding: 2em; }
     .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
       margin-bottom: 0; }
     .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-      width: 80%; } }
+      width: 80%; }
+  .client {
+    margin-top: 1em; } }
 
 /* ================================================================ 
 	[MOBILE MEDIA QUERY END]   
