@@ -58,7 +58,6 @@ and (max-width : 1024px)  {
 	html, body {
 		background-size: 100%;
 		font-size: 16px;
-		background-color: orange;
 	}
 
 		h1 {
@@ -190,6 +189,10 @@ and (max-width : 767px) {
 			margin-top: 3em;
 		}
 
+	.content {
+		padding-top: 68px;
+	}
+
 	/* ========== HOME PAGE ========== */
 
 	.welcome-msg-index {
@@ -219,6 +222,67 @@ and (max-width : 767px) {
 	.client {
 		margin-top: 1em;
 	}
+
+	/* ========== ABOUT PAGE ========== */
+
+	.welcome-msg-about {
+		padding: 2em 2em 4em 2em;
+
+		h3 {
+			width: 100%;
+		}
+	}
+
+	.who-am-i {
+		padding: 0 2em 2em 2em;
+
+		display: block;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		.who-am-i-text {
+			width: 100%;
+			margin-right: 0;
+		}
+
+		.me-img {
+			max-width: none;
+			margin: 2em 0 0 0;
+			text-align: center;
+
+			img {
+				max-width: 250px;
+			}
+		}
+	}
+
+	.why-i-design {
+		padding: 2em;
+
+		display: block;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		h4 {
+			width: 100%;
+		}
+
+		img {
+			padding-top: 2em;
+		}
+	}
+
+	.resume {
+		padding: 2em;
+	}
+
+.closing-remarks {
+	padding: 2em;
+
+	h3 {
+		width: 100%;
+	}
+}
 
 }
 

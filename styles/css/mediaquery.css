@@ -29,8 +29,7 @@
   /* ========== BASE ========== */
   html, body {
     background-size: 100%;
-    font-size: 16px;
-    background-color: orange; }
+    font-size: 16px; }
   h1 {
     font-size: 48px; }
   h2 {
@@ -92,6 +91,8 @@
     margin: 3em 0 2em 0; }
   a.btn:hover {
     margin-top: 3em; }
+  .content {
+    padding-top: 68px; }
   /* ========== HOME PAGE ========== */
   .welcome-msg-index {
     display: block;
@@ -105,7 +106,41 @@
     .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
       width: 80%; }
   .client {
-    margin-top: 1em; } }
+    margin-top: 1em; }
+  /* ========== ABOUT PAGE ========== */
+  .welcome-msg-about {
+    padding: 2em 2em 4em 2em; }
+    .welcome-msg-about h3 {
+      width: 100%; }
+  .who-am-i {
+    padding: 0 2em 2em 2em;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .who-am-i .who-am-i-text {
+      width: 100%;
+      margin-right: 0; }
+    .who-am-i .me-img {
+      max-width: none;
+      margin: 2em 0 0 0;
+      text-align: center; }
+      .who-am-i .me-img img {
+        max-width: 250px; }
+  .why-i-design {
+    padding: 2em;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .why-i-design h4 {
+      width: 100%; }
+    .why-i-design img {
+      padding-top: 2em; }
+  .resume {
+    padding: 2em; }
+  .closing-remarks {
+    padding: 2em; }
+    .closing-remarks h3 {
+      width: 100%; } }
 
 /* ================================================================ 
 	[MOBILE MEDIA QUERY END]   
