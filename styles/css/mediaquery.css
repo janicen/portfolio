@@ -52,7 +52,36 @@
     .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
       margin-bottom: 0; }
     .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-      width: 60%; } }
+      width: 60%; }
+  /* ========== ABOUT PAGE ========== */
+  .welcome-msg-about {
+    padding: 3em 3em 10em 3em; }
+    .welcome-msg-about h3 {
+      width: 50%; }
+  .who-am-i {
+    padding: 0 3em 3em 3em; }
+    .who-am-i .who-am-i-text {
+      width: 100%;
+      margin-right: 2em; }
+    .who-am-i .me-img {
+      text-align: center;
+      margin: 0; }
+      .who-am-i .me-img img {
+        max-width: 250px; }
+  .why-i-design {
+    padding: 3em; }
+    .why-i-design .why-i-design-text {
+      width: 100%;
+      margin-right: 2em; }
+    .why-i-design h4 {
+      width: 100%; }
+    .why-i-design .diagram-process {
+      text-align: center;
+      margin: 0; }
+      .why-i-design .diagram-process img {
+        max-width: 250px; }
+  .closing-remarks h3 {
+    width: 80%; } }
 
 /* ================================================================ 
 	[TABLET MEDIA QUERY END]   
@@ -135,6 +164,10 @@
       width: 100%; }
     .why-i-design img {
       padding-top: 2em; }
+    .why-i-design .diagram-process {
+      max-width: none;
+      margin-right: 0;
+      text-align: center; }
   .resume {
     padding: 2em; }
   .closing-remarks {
