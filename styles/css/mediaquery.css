@@ -173,7 +173,49 @@
   .closing-remarks {
     padding: 2em; }
     .closing-remarks h3 {
-      width: 100%; } }
+      width: 100%; }
+  /* ========== WORKS PAGE ========== */
+  .welcome-msg-surrey {
+    padding: 2em;
+    height: 200px; }
+  .descriptions {
+    width: 250px;
+    margin-bottom: 2em;
+    padding: 0 0 2em 0;
+    display: block; }
+  .type, .role, .tools {
+    width: 100%;
+    margin: 0; }
+  .overview {
+    margin: 0 2em 1em 2em; }
+  .gif {
+    margin-bottom: 2em; }
+  .objective {
+    padding: 2em;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .objective h2 {
+      padding-bottom: 0.5em; }
+  .process h4 {
+    padding: 2em; }
+  .process .image-caption {
+    display: block; }
+    .process .image-caption img {
+      width: 100%; }
+  .process .caption {
+    padding: 2em; }
+  .process .images-row1, .process .images-row2 {
+    margin: 2em;
+    display: block; }
+    .process .images-row1 img, .process .images-row2 img {
+      width: 100%; }
+  .process .images {
+    margin: 0; }
+  .top {
+    padding: 1em; }
+  .project-nav-ibm {
+    padding: 2em 0; } }
 
 /* ================================================================ 
 	[MOBILE MEDIA QUERY END]   
