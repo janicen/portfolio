@@ -247,6 +247,7 @@
 .press-release {
   padding: 5em 6.5em; }
   .press-release li {
+    display: block;
     font-size: 24px;
     padding: 1em 0; }
 

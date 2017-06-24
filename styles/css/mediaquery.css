@@ -81,7 +81,35 @@
       .why-i-design .diagram-process img {
         max-width: 250px; }
   .closing-remarks h3 {
-    width: 80%; } }
+    width: 80%; }
+  /* ========== WORKS PAGE ========== */
+  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
+    padding: 3em;
+    height: 220px; }
+  .descriptions {
+    width: 650px;
+    margin-bottom: 2em;
+    padding: 0 0 2em 0; }
+  .type, .role, .tools {
+    margin: 0 0.5em; }
+  .overview {
+    margin: 0 8em 1em 8em; }
+  .objective {
+    padding: 3em; }
+    .objective h2 {
+      margin-right: 2em; }
+  .process h4 {
+    padding: 3em; }
+  .process .caption {
+    padding: 3em; }
+  .process .images-row1, .process .images-row2 {
+    margin: 2em; }
+  .process .images {
+    margin: 3em; }
+  .top {
+    padding: 2em; }
+  .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
+    padding: 3em 0; } }
 
 /* ================================================================ 
 	[TABLET MEDIA QUERY END]   
@@ -175,9 +203,12 @@
     .closing-remarks h3 {
       width: 100%; }
   /* ========== WORKS PAGE ========== */
-  .welcome-msg-surrey {
+  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
     padding: 2em;
     height: 200px; }
+    .welcome-msg-surrey img, .welcome-msg-ibm img, .welcome-msg-farmooo img, .welcome-msg-sfu img, .welcome-msg-rayz img {
+      width: 48px;
+      height: auto; }
   .descriptions {
     width: 250px;
     margin-bottom: 2em;
@@ -209,13 +240,19 @@
     margin: 2em;
     display: block; }
     .process .images-row1 img, .process .images-row2 img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
   .process .images {
     margin: 0; }
   .top {
     padding: 1em; }
-  .project-nav-ibm {
-    padding: 2em 0; } }
+  .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
+    padding: 2em 0; }
+  /* FARMOOO */
+  .press-release {
+    padding: 2em; }
+    .press-release li {
+      font-size: 18px; } }
 
 /* ================================================================ 
 	[MOBILE MEDIA QUERY END]   

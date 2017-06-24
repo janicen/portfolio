@@ -162,6 +162,71 @@ and (max-width : 1024px)  {
 			width: 80%;
 		}
 	}
+
+	/* ========== WORKS PAGE ========== */
+
+	.welcome-msg-surrey, 
+	.welcome-msg-ibm, 
+	.welcome-msg-farmooo, 
+	.welcome-msg-sfu,
+	.welcome-msg-rayz {
+		padding: 3em;
+		height: 220px;
+	}
+
+	.descriptions {
+		width: 650px;
+		margin-bottom: 2em;
+		padding: 0 0 2em 0;
+	}
+
+		.type, .role, .tools {
+			margin: 0 0.5em;
+		}
+
+	.overview {
+		margin: 0 8em 1em 8em;
+	}
+
+	.objective {
+		padding: 3em;
+
+		h2 {
+			margin-right: 2em;
+		}
+	}
+
+	.process {
+		
+		h4 {
+			padding: 3em;
+		}
+
+		.caption {
+			padding: 3em;
+		}
+
+		.images-row1, .images-row2 {
+			margin: 2em;
+		}
+
+		.images {
+			margin: 3em;
+		}
+	}
+
+	.top {
+		padding: 2em;
+	}
+
+	.project-nav-ibm, 
+	.project-nav-farmooo,
+	.project-nav-sfu,
+	.project-nav-rayz,
+	.project-nav-surrey {
+		padding: 3em 0;
+	}
+
 }
 
 /* ================================================================ 
@@ -347,9 +412,19 @@ and (max-width : 767px) {
 
 	/* ========== WORKS PAGE ========== */
 
-	.welcome-msg-surrey {
+	.welcome-msg-surrey, 
+	.welcome-msg-ibm, 
+	.welcome-msg-farmooo, 
+	.welcome-msg-sfu, 
+	.welcome-msg-rayz {
 		padding: 2em;
 		height: 200px;
+
+		img {
+			width: 48px;
+			height: auto;
+		}
+
 	}
 
 	.descriptions {
@@ -408,6 +483,7 @@ and (max-width : 767px) {
 
 			img {
 				width: 100%;
+				height: auto;
 			}
 		}
 
@@ -420,9 +496,22 @@ and (max-width : 767px) {
 		padding: 1em;
 	}
 
-	.project-nav-ibm {
+	.project-nav-ibm, 
+	.project-nav-farmooo,
+	.project-nav-sfu, 
+	.project-nav-rayz,
+	.project-nav-surrey {
 		padding: 2em 0;
 	}
+
+		/* FARMOOO */
+		.press-release {
+			padding: 2em;
+
+			li {
+				font-size: 18px;
+			}
+		}
 }
 
 /* ================================================================ 
