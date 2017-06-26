@@ -157,6 +157,7 @@
     .welcome-msg-index h1 {
       padding-bottom: 0.5em; }
   .surrey, .ibm, .farmooo, .sfu, .rayz {
+    background-position: relative right;
     padding: 2em; }
     .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
       margin-bottom: 0; }

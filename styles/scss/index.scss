@@ -15,6 +15,7 @@
 	background-image: url('../../img/bg-pattern.png');
 	background-size: cover;
 	background-position: relative center;
+	background-repeat: no-repeat;
 	border-radius: 0 0 50% 50%;
 	height: auto;
 	margin-bottom: 2em;
@@ -71,6 +72,16 @@
 
 	.rayz {
 		background: linear-gradient(rgba(6,166,255,0.75),rgba(6,166,255,0.75)),url("../../img/rayz-cover.jpg");
+	}
+
+	.surrey, 
+	.ibm,
+	.farmooo,
+	.sfu,
+	.rayz {
+		background-size: cover;
+		background-position: relative center;
+		background-repeat: no-repeat;
 	}
 
 /* ========== TEXT LAYOUT ========== */
