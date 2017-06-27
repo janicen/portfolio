@@ -434,41 +434,32 @@ footer {
     padding: 0 1em; }
 
 /* ========== ICONS ========== */
-.dribbble-hover img:last-child {
-  display: none; }
+.dribbble-hover img:last-child, .flickr-hover img:last-child, .instagram-hover img:last-child, .linkedin-hover img:last-child {
+  display: none;
+  /* ANIMATION */
+  -webkit-transition: 0.15s ease-in, 0.15s ease-out;
+  -moz-transition: 0.15s ease-in, 0.15s ease-out;
+  -o-transition: 0.15s ease-in, 0.15s ease-out;
+  -ms-transition: 0.15s ease-in, 0.15s ease-out;
+  transition: 0.15s ease-in, 0.15s ease-out; }
 
-.dribbble-hover:hover img:first-child {
-  display: none; }
+.dribbble-hover:hover img:first-child, .flickr-hover:hover img:first-child, .instagram-hover:hover img:first-child, .linkedin-hover:hover img:first-child {
+  display: none;
+  /* ANIMATION */
+  -webkit-transition: 0.15s ease-in, 0.15s ease-out;
+  -moz-transition: 0.15s ease-in, 0.15s ease-out;
+  -o-transition: 0.15s ease-in, 0.15s ease-out;
+  -ms-transition: 0.15s ease-in, 0.15s ease-out;
+  transition: 0.15s ease-in, 0.15s ease-out; }
 
-.dribbble-hover:hover img:last-child {
-  display: inline-block; }
-
-.flickr-hover img:last-child {
-  display: none; }
-
-.flickr-hover:hover img:first-child {
-  display: none; }
-
-.flickr-hover:hover img:last-child {
-  display: inline-block; }
-
-.instagram-hover img:last-child {
-  display: none; }
-
-.instagram-hover:hover img:first-child {
-  display: none; }
-
-.instagram-hover:hover img:last-child {
-  display: inline-block; }
-
-.linkedin-hover img:last-child {
-  display: none; }
-
-.linkedin-hover:hover img:first-child {
-  display: none; }
-
-.linkedin-hover:hover img:last-child {
-  display: inline-block; }
+.dribbble-hover:hover img:last-child, .flickr-hover:hover img:last-child, .instagram-hover:hover img:last-child, .linkedin-hover:hover img:last-child {
+  display: inline-block;
+  /* ANIMATION */
+  -webkit-transition: 0.15s ease-in, 0.15s ease-out;
+  -moz-transition: 0.15s ease-in, 0.15s ease-out;
+  -o-transition: 0.15s ease-in, 0.15s ease-out;
+  -ms-transition: 0.15s ease-in, 0.15s ease-out;
+  transition: 0.15s ease-in, 0.15s ease-out; }
 
 .footerwrapper {
   width: 100px;
@@ -524,7 +515,13 @@ footer {
 /* ========== LINKS ========== */
 a {
   color: #939292;
-  text-decoration: none; }
+  text-decoration: none;
+  /* ANIMATION */
+  -webkit-transition: 0.15s ease-in, 0.15s ease-out;
+  -moz-transition: 0.15s ease-in, 0.15s ease-out;
+  -o-transition: 0.15s ease-in, 0.15s ease-out;
+  -ms-transition: 0.15s ease-in, 0.15s ease-out;
+  transition: 0.15s ease-in, 0.15s ease-out; }
 
 a:hover {
   color: #039ED3; }
@@ -533,24 +530,24 @@ a:hover {
   color: #039ED3; }
 
 /* ========== BUTTONS ========== */
-a.btn {
+.btn {
   display: inline-block;
   margin: 5em 0 4em 0;
   padding: 1em 3em;
   border-radius: 1em;
   border: 2px solid #FFFFFF; }
-  a.btn h4 {
+  .btn h4 {
     width: 100%;
     color: #FFFFFF; }
 
-a.btn:hover {
+.btn:hover {
   background-color: #FFFFFF;
   border-radius: 1em;
   display: inline-block;
   margin-top: 5em;
   padding: 1em 3em;
   border: 2px solid #FFFFFF; }
-  a.btn:hover h4 {
+  .btn:hover h4 {
     width: 100%;
     color: #039ED3; }
 
@@ -628,12 +625,16 @@ a.project-nav-ibm, a.project-nav-farmooo, a.project-nav-sfu, a.project-nav-rayz,
 
 a.project-nav-ibm:hover, a.project-nav-farmooo:hover, a.project-nav-sfu:hover, a.project-nav-rayz:hover, a.project-nav-surrey:hover {
   color: #FFFFFF; }
+  a.project-nav-ibm:hover img, a.project-nav-farmooo:hover img, a.project-nav-sfu:hover img, a.project-nav-rayz:hover img, a.project-nav-surrey:hover img {
+    transform: translateX(10px); }
 
 /* ========== RETURN TOP ========== */
 .top {
   text-align: center;
   overflow: hidden;
   padding: 3em; }
+  .top img:hover {
+    transform: translateY(-10px); }
 
 /* ================================================================ 
 	WORKS END

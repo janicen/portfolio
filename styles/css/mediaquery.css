@@ -86,6 +86,8 @@
   .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
     padding: 3em;
     height: 220px; }
+  .welcome-msg-sfu {
+    background-position: right center; }
   .descriptions {
     width: 650px;
     margin-bottom: 2em;
@@ -209,6 +211,8 @@
     .welcome-msg-surrey img, .welcome-msg-ibm img, .welcome-msg-farmooo img, .welcome-msg-sfu img, .welcome-msg-rayz img {
       width: 48px;
       height: auto; }
+  .welcome-msg-sfu {
+    background-position: right center; }
   .descriptions {
     width: 250px;
     margin-bottom: 2em;
