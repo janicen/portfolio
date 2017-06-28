@@ -39,7 +39,7 @@
   h4 {
     font-size: 20px; }
   header {
-    width: 95%; }
+    width: 92%; }
   .content {
     padding-top: 68px; }
   /* ========== HOME PAGE ========== */
@@ -48,7 +48,7 @@
     .welcome-msg-index h1 {
       margin-right: 1em; }
   .surrey, .ibm, .farmooo, .sfu, .rayz {
-    padding: 3em 4.5em; }
+    padding: 3em; }
     .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
       margin-bottom: 0; }
     .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
@@ -150,6 +150,9 @@
     margin: 3em 0 2em 0; }
   a.btn:hover {
     margin-top: 3em; }
+  .close {
+    width: 32px;
+    height: auto; }
   .content {
     padding-top: 68px; }
   /* ========== HOME PAGE ========== */

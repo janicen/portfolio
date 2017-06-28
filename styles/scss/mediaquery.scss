@@ -77,7 +77,7 @@ and (max-width : 1024px)  {
 		}
 
 	header {
-		width: 95%;
+		width: 92%;
 	}
 
 	.content {
@@ -96,7 +96,7 @@ and (max-width : 1024px)  {
 	}
 
 	.surrey, .ibm, .farmooo, .sfu, .rayz {
-		padding: 3em 4.5em;
+		padding: 3em;
 
 		h1 {
 			margin-bottom: 0;
@@ -311,6 +311,11 @@ and (max-width : 767px) {
 
 		a.btn:hover {
 			margin-top: 3em;
+		}
+
+		.close {
+			width: 32px;
+			height: auto;
 		}
 
 	.content {
