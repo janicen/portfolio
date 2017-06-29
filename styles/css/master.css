@@ -285,6 +285,14 @@
   .welcome-msg-sfu img {
     margin-top: 2em; }
 
+.gif-sfu {
+  margin: 3em 3em 0 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .gif-sfu img {
+    width: 50%; }
+
 .process .images-row1, .process .images-row2 {
   margin: 3em 3em 0 3em;
   display: flex;

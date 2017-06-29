@@ -265,6 +265,11 @@
     justify-content: flex-start; }
     .objective h2 {
       padding-bottom: 0.5em; }
+  .gif-sfu {
+    margin: 2em;
+    display: block; }
+    .gif-sfu img {
+      width: 100%; }
   .process h4 {
     padding: 2em; }
   .process .image-caption {

@@ -540,6 +540,15 @@ and (max-width : 767px) {
 		}
 	}
 
+		.gif-sfu {
+			margin: 2em;
+			display: block;
+
+			img {
+				width: 100%;
+			}
+		}
+
 	.process {
 		
 		h4 {
