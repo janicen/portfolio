@@ -11,7 +11,7 @@
 	[LAPTOP MEDIA QUERY START]   
 ================================================================  */
 
-@media only screen and (min-width: 1024px) and (max-width: 1700px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
 	/* ========== BASE ========== */
 
@@ -37,6 +37,70 @@
 		}
 	}
 
+	/* ========== ABOUT PAGE ========== */
+
+	.welcome-msg-about {
+
+		h3 {
+			width: 70%;
+		}
+	}
+
+	.who-am-i {
+
+		.who-am-i-text {
+			width: 75%;
+			margin-right: 5em;
+		}
+
+		.me-img {
+			text-align: center;
+			margin: 0;
+
+			img {
+				max-width: 280px;
+			}
+		}
+	}
+
+	.why-i-design {
+
+		.why-i-design-text {
+			width: 75%;
+			margin-right: 5em;
+		}
+
+		.diagram-process {
+			text-align: center;
+			margin: 0;
+
+			img {
+				max-width: 280px;
+			}
+		}
+	}
+
+	/* ========== WORKS PAGE ========== */
+
+	.descriptions {
+		width: 820px;
+	}
+
+	.overview {
+		margin: 3em 10em;
+	}
+
+	.objective {
+		padding: 5em;
+	}
+
+	.process {
+
+		h4{
+			padding: 5em 10em;
+		}
+
+	}
 }
 
 /* ================================================================ 
@@ -113,7 +177,7 @@ and (max-width : 1024px)  {
 		padding: 3em 3em 10em 3em;
 
 		h3 {
-			width: 50%;
+			width: 75%;
 		}
 	}
 
@@ -179,7 +243,7 @@ and (max-width : 1024px)  {
 		}
 
 	.descriptions {
-		width: 650px;
+		width: 720px;
 		margin-bottom: 2em;
 		padding: 0 0 2em 0;
 	}
@@ -189,7 +253,7 @@ and (max-width : 1024px)  {
 		}
 
 	.overview {
-		margin: 0 8em 1em 8em;
+		margin: 0 10em 1em 10em;
 	}
 
 	.objective {
@@ -203,7 +267,7 @@ and (max-width : 1024px)  {
 	.process {
 		
 		h4 {
-			padding: 3em;
+			padding: 3em 5em;
 		}
 
 		.caption {
@@ -441,7 +505,7 @@ and (max-width : 767px) {
 		}
 
 	.descriptions {
-		width: 250px;
+		width: 220px;
 		margin-bottom: 2em;
 		padding: 0 0 2em 0;
 		display: block;
@@ -450,6 +514,10 @@ and (max-width : 767px) {
 		.type, .role, .tools {
 			width: 100%;
 			margin: 0;
+
+			h3 {
+				margin-top: 1em;
+			}
 		}
 
 	.overview {

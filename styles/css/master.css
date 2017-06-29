@@ -15,7 +15,7 @@
   border-radius: 0 0 50% 50%;
   height: auto;
   margin-bottom: 2em;
-  padding: 5em 25em 5em 25em;
+  padding: 5em 20em 5em 20em;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -114,8 +114,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between; }
-  .why-i-design h4 {
-    width: 85%; }
+  .why-i-design .why-i-design-text {
+    width: 60%; }
   .why-i-design .diagram-process {
     overflow: hidden;
     width: 100%;
@@ -566,7 +566,7 @@ a#play:hover {
 ================================================================  */
 /* ========== DESCRIPTIONS ========== */
 .descriptions {
-  width: 1200px;
+  width: 1120px;
   text-align: center;
   margin: auto;
   padding: 4em;
@@ -605,7 +605,7 @@ a#play:hover {
 
 /* ========== PROCESS ========== */
 .process h4 {
-  padding: 5em 20em; }
+  padding: 5em 15em; }
 .process .images {
   text-align: center;
   margin: 0 10em; }

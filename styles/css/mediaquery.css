@@ -7,7 +7,7 @@
 /* ================================================================ 
 	[LAPTOP MEDIA QUERY START]   
 ================================================================  */
-@media only screen and (min-width: 1024px) and (max-width: 1700px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* ========== BASE ========== */
   html, body {
     background-size: 100%; }
@@ -17,7 +17,35 @@
   .surrey h1, .ibm h1, .farmooo h1, .sfu h1, .rayz h1 {
     margin-bottom: 0; }
   .surrey h3, .ibm h3, .farmooo h3, .sfu h3, .rayz h3 {
-    width: 50%; } }
+    width: 50%; }
+  /* ========== ABOUT PAGE ========== */
+  .welcome-msg-about h3 {
+    width: 70%; }
+  .who-am-i .who-am-i-text {
+    width: 75%;
+    margin-right: 5em; }
+  .who-am-i .me-img {
+    text-align: center;
+    margin: 0; }
+    .who-am-i .me-img img {
+      max-width: 280px; }
+  .why-i-design .why-i-design-text {
+    width: 75%;
+    margin-right: 5em; }
+  .why-i-design .diagram-process {
+    text-align: center;
+    margin: 0; }
+    .why-i-design .diagram-process img {
+      max-width: 280px; }
+  /* ========== WORKS PAGE ========== */
+  .descriptions {
+    width: 820px; }
+  .overview {
+    margin: 3em 10em; }
+  .objective {
+    padding: 5em; }
+  .process h4 {
+    padding: 5em 10em; } }
 
 /* ================================================================ 
 	[LAPTOP MEDIA QUERY END]   
@@ -57,7 +85,7 @@
   .welcome-msg-about {
     padding: 3em 3em 10em 3em; }
     .welcome-msg-about h3 {
-      width: 50%; }
+      width: 75%; }
   .who-am-i {
     padding: 0 3em 3em 3em; }
     .who-am-i .who-am-i-text {
@@ -89,19 +117,19 @@
   .welcome-msg-sfu {
     background-position: right center; }
   .descriptions {
-    width: 650px;
+    width: 720px;
     margin-bottom: 2em;
     padding: 0 0 2em 0; }
   .type, .role, .tools {
     margin: 0 0.5em; }
   .overview {
-    margin: 0 8em 1em 8em; }
+    margin: 0 10em 1em 10em; }
   .objective {
     padding: 3em; }
     .objective h2 {
       margin-right: 2em; }
   .process h4 {
-    padding: 3em; }
+    padding: 3em 5em; }
   .process .caption {
     padding: 3em; }
   .process .images-row1, .process .images-row2 {
@@ -217,13 +245,15 @@
   .welcome-msg-sfu {
     background-position: right center; }
   .descriptions {
-    width: 250px;
+    width: 220px;
     margin-bottom: 2em;
     padding: 0 0 2em 0;
     display: block; }
   .type, .role, .tools {
     width: 100%;
     margin: 0; }
+    .type h3, .role h3, .tools h3 {
+      margin-top: 1em; }
   .overview {
     margin: 0 2em 1em 2em; }
   .gif {
