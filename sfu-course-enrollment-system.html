@@ -72,11 +72,16 @@
 
 				<!-- Video Overlay Start -->
 				<div id="video" class="overlay">
-					<div class="popup">						
-							<embed src="http://player.vimeo.com/video/54535641" width="100%" height="100%"></embed>
-						<a class="close" id="play" href="#"><img src="./img/icon-close.png" width="32" height="32" alt="video close button"/></a>
+					<div class="popup">	
+						<a id="close" href=""><img src="./img/icon-close.png" width="32" height="32" alt="video close button"/></a>			
+						<iframe src="https://player.vimeo.com/video/54535641" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
 				</div>
+				<script>
+				$('#close').on('click', function() {
+					$('#video2')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
+				});
+				</script>
 				<!-- Video Overlay End -->
 
 			</div>
