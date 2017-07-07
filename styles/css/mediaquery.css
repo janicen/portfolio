@@ -221,8 +221,9 @@
     display: block;
     align-items: flex-start;
     justify-content: flex-start; }
-    .why-i-design h4 {
-      width: 100%; }
+    .why-i-design .why-i-design-text {
+      width: 100%;
+      margin-right: 0; }
     .why-i-design img {
       padding-top: 2em; }
     .why-i-design .diagram-process {
