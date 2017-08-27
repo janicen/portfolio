@@ -525,9 +525,14 @@ and (max-width : 767px) {
 		margin: 0 2em 1em 2em;
 	}
 
-	.gif {
+	.gif-mobile {
+		display: block;
 		margin-bottom: 2em;
 	}
+
+		.gif, .gif-sfu {
+			display: none;
+		}
 
 	.objective {
 		padding: 2em;
@@ -540,15 +545,6 @@ and (max-width : 767px) {
 			padding-bottom: 0.5em;
 		}
 	}
-
-		.gif-sfu {
-			margin: 2em;
-			display: block;
-
-			img {
-				width: 100%;
-			}
-		}
 
 	.process {
 		

@@ -75,6 +75,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/diagram-process.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9172,
+		"inputAbbreviatedPath": "\/img\/diagram-process.png",
+		"outputAbbreviatedPath": "\/img\/diagram-process.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/farmooo-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -229,6 +240,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ibm2-m.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296072,
+		"inputAbbreviatedPath": "\/img\/ibm2-m.png",
+		"outputAbbreviatedPath": "\/img\/ibm2-m.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ibm3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -244,7 +266,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85434,
+		"initialSize": 650031,
 		"inputAbbreviatedPath": "\/img\/ibm4.jpg",
 		"outputAbbreviatedPath": "\/img\/ibm4.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -255,7 +277,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 650031,
+		"initialSize": 529862,
 		"inputAbbreviatedPath": "\/img\/ibm5.jpg",
 		"outputAbbreviatedPath": "\/img\/ibm5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -266,7 +288,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 529862,
+		"initialSize": 558270,
 		"inputAbbreviatedPath": "\/img\/ibm6.jpg",
 		"outputAbbreviatedPath": "\/img\/ibm6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -277,20 +299,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 558270,
+		"initialSize": 342401,
 		"inputAbbreviatedPath": "\/img\/ibm7.jpg",
 		"outputAbbreviatedPath": "\/img\/ibm7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ibm8.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 342401,
-		"inputAbbreviatedPath": "\/img\/ibm8.jpg",
-		"outputAbbreviatedPath": "\/img\/ibm8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -324,6 +335,17 @@
 		"initialSize": 1490,
 		"inputAbbreviatedPath": "\/img\/icon-arrow-top.png",
 		"outputAbbreviatedPath": "\/img\/icon-arrow-top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2202,
+		"inputAbbreviatedPath": "\/img\/icon-close.png",
+		"outputAbbreviatedPath": "\/img\/icon-close.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -750,7 +772,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 133471,
+		"initialSize": 136093,
 		"inputAbbreviatedPath": "\/img\/sfu6.jpg",
 		"outputAbbreviatedPath": "\/img\/sfu6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -867,6 +889,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/surrey2-m.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90781,
+		"inputAbbreviatedPath": "\/img\/surrey2-m.png",
+		"outputAbbreviatedPath": "\/img\/surrey2-m.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/surrey3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -962,6 +995,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/rayz.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rayz.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/report-samples.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -985,6 +1027,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/css\/master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/css\/mediaquery.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/css\/mediaquery.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1053,6 +1104,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/styles\/scss\/mediaquery.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/mediaquery.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/mediaquery.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/styles\/scss\/mysurrey-portal.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1068,15 +1135,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
-		},
-	"\/styles\/scss\/rayz.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/scss\/rayz.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/styles\/scss\/rayz.scss": {
 		"createSourceMap": 0,

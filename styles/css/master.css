@@ -404,6 +404,7 @@ header {
   position: fixed;
   overflow: hidden;
   padding: 0.6em 3em;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -650,6 +651,9 @@ a#play:hover {
 .gif {
   text-align: center;
   margin-bottom: 3em; }
+
+.gif-mobile {
+  display: none; }
 
 /* ========== OBJECTIVE ========== */
 .objective {

@@ -257,8 +257,11 @@
       margin-top: 1em; }
   .overview {
     margin: 0 2em 1em 2em; }
-  .gif {
+  .gif-mobile {
+    display: block;
     margin-bottom: 2em; }
+  .gif, .gif-sfu {
+    display: none; }
   .objective {
     padding: 2em;
     display: block;
@@ -266,11 +269,6 @@
     justify-content: flex-start; }
     .objective h2 {
       padding-bottom: 0.5em; }
-  .gif-sfu {
-    margin: 2em;
-    display: block; }
-    .gif-sfu img {
-      width: 100%; }
   .process h4 {
     padding: 2em; }
   .process .image-caption {
