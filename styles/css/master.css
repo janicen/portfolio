@@ -404,7 +404,7 @@ header {
   position: fixed;
   overflow: hidden;
   padding: 0.6em 3em;
-  z-index: 0;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -491,7 +491,8 @@ footer {
   left: 0;
   right: 0;
   visibility: hidden;
-  opacity: 0; }
+  opacity: 0;
+  z-index: 3; }
 
 .overlay:target {
   visibility: visible;
@@ -517,7 +518,7 @@ footer {
   transition: 0.15s ease-in, 0.15s ease-out; }
 
 #video2 {
-  z-index: 2; }
+  z-index: 3; }
 
 /* ========== VIDEO ========== */
 .video embed {
