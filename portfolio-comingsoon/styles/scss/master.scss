@@ -1,0 +1,246 @@
+@import 'index';
+
+/*
+
+	Janice Ng's Portfolio
+	CSS: Master
+
+*/
+
+
+
+/* ================================================================ 
+  BASE STYLE START 
+================================================================  */
+
+html, body {
+	width: auto;
+	height: auto;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+html, body, ul, ol, li, form, fieldset, legend,
+h1, h2, h3, h4, h5, h6, p {
+  	border: 0;
+  	margin: 0;
+  	padding: 0;
+}
+
+	h1 {
+		font-size: 64px;
+		font-weight: 600;
+		padding-bottom: 0.8em;
+	}
+
+	h2 {
+		font-size: 48px;
+		font-weight: 600;
+		padding-bottom: 1em;
+	}
+
+	h3 {
+		font-size: 32px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+
+	h4 {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 1.5em;
+	}
+
+	p {
+		font-weight: 400;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	li {
+	  	list-style: none;
+	  	display: inline-block;
+	}
+
+#bold {
+	font-weight: 600;
+}
+
+/* ================================================================ 
+	BASE STYLE END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+
+/* ========== HEADER ========== */
+
+header {
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 10px rgba(147,146,146,0.5);
+	width: 95%;
+	height: auto;
+	position: fixed;
+	overflow: hidden;
+	padding: 0.6em 3em;
+	z-index: 2;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	h4 {
+		font-weight: 600;
+	}
+
+	nav {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	li {
+		padding: 0 1.5em;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.name {
+			padding-left: 1em;
+		}
+	}
+
+	a.logo {
+		color: #000000;
+	}
+
+		a.logo:hover {
+			color: #000000;
+		}
+
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+	text-align: center;
+	margin: 4em 0;
+
+	h3, p {
+		color: #039ED3;
+	}
+
+
+	h3 {
+		font-weight: 600;
+		padding-bottom: 1.5em;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	ul {
+		padding-bottom: 2em;
+	}
+
+	li {
+		padding: 0 1em;
+	}
+
+}
+
+	/* ========== ICONS ========== */
+
+	.dribbble-hover img:last-child,
+	.flickr-hover img:last-child,
+	.instagram-hover img:last-child,
+	.linkedin-hover img:last-child {
+		display: none;
+		/* ANIMATION */
+		-webkit-transition: 0.15s ease-in, 0.15s ease-out;
+		-moz-transition: 0.15s ease-in, 0.15s ease-out;
+		-o-transition: 0.15s ease-in, 0.15s ease-out;
+	  	-ms-transition: 0.15s ease-in, 0.15s ease-out;
+	  		transition: 0.15s ease-in, 0.15s ease-out;
+	}
+
+	.dribbble-hover:hover img:first-child,
+	.flickr-hover:hover img:first-child,
+	.instagram-hover:hover img:first-child,
+	.linkedin-hover:hover img:first-child {
+		display:none;
+		/* ANIMATION */
+		-webkit-transition: 0.15s ease-in, 0.15s ease-out;
+		-moz-transition: 0.15s ease-in, 0.15s ease-out;
+		-o-transition: 0.15s ease-in, 0.15s ease-out;
+	  	-ms-transition: 0.15s ease-in, 0.15s ease-out;
+	  		transition: 0.15s ease-in, 0.15s ease-out;
+	}
+
+	.dribbble-hover:hover img:last-child,
+	.flickr-hover:hover img:last-child,
+	.instagram-hover:hover img:last-child,
+	.linkedin-hover:hover img:last-child {
+		display: inline-block;
+		/* ANIMATION */
+		-webkit-transition: 0.15s ease-in, 0.15s ease-out;
+		-moz-transition: 0.15s ease-in, 0.15s ease-out;
+		-o-transition: 0.15s ease-in, 0.15s ease-out;
+	  	-ms-transition: 0.15s ease-in, 0.15s ease-out;
+	  		transition: 0.15s ease-in, 0.15s ease-out;
+	}
+
+	.footerwrapper {
+		width: 100px;
+		overflow: hidden;
+		border-top: 2px solid #939292;
+		margin: auto;
+		padding-top: 3em;
+	}
+
+/* ========== CONTENT ========== */
+
+.content {
+	overflow: hidden;
+	padding-top: 70px;
+}
+
+/* ================================================================ 
+	LAYOUT END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LINKS START 
+================================================================  */
+
+/* ========== LINKS ========== */
+
+a {
+	color: #939292;
+	text-decoration: none;
+
+	/* ANIMATION */
+	-webkit-transition: 0.15s ease-in, 0.15s ease-out;
+	-moz-transition: 0.15s ease-in, 0.15s ease-out;
+	-o-transition: 0.15s ease-in, 0.15s ease-out;
+  	-ms-transition: 0.15s ease-in, 0.15s ease-out;
+  		transition: 0.15s ease-in, 0.15s ease-out;
+
+}
+
+/* ================================================================ 
+	LINKS END 
+================================================================  */

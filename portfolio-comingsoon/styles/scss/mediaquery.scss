@@ -1,0 +1,165 @@
+/*
+
+	Janice Ng's Portfolio
+	CSS: Media Queries
+
+*/
+
+
+
+/* ================================================================ 
+	[LAPTOP MEDIA QUERY START]   
+================================================================  */
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+	/* ========== BASE ========== */
+
+	html, body {
+		background-size: 100%;
+		// background-color: orange;
+	}
+}
+
+/* ================================================================ 
+	[LAPTOP MEDIA QUERY END]   
+================================================================  */
+
+
+
+/* ================================================================ 
+	[TABLET MEDIA QUERY START]   
+================================================================  */
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  {
+
+	/* ========== BASE ========== */
+
+	html, body {
+		background-size: 100%;
+		font-size: 16px;
+	}
+
+		h1 {
+			font-size: 48px;
+		}
+
+		h2 {
+			font-size: 36px;
+		}
+
+		h3 {
+			font-size: 24px;
+		}
+
+		h4 {
+			font-size: 20px;
+		}
+
+	header {
+		width: 92%;
+	}
+
+	.content {
+		padding-top: 68px;
+	}
+
+	.welcome-msg-index {
+		background-position: left top;
+	}
+}
+
+/* ================================================================ 
+	[TABLET MEDIA QUERY END]   
+================================================================  */
+
+
+
+/* ================================================================ 
+	[MOBILE MEDIA QUERY START]   
+================================================================  */
+
+@media only screen 
+and (min-width : 318px) 
+and (max-width : 767px) {
+
+	/* ========== BASE ========== */
+
+	html, body {
+		background-size: 100%;
+		// background-color: orange;
+		font-size: 16px;
+	}
+
+		h1 {
+			font-size: 32px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		h4 {
+			font-size: 18px;
+		}
+
+	/* ========== LAYOUT ========== */
+
+	header {
+	
+		padding: 0.6em 1em;
+
+		li {
+			padding: 0 1em 0 0.5em;
+		}
+
+		.name {
+			display: none;
+		}
+
+	}
+
+	footer {
+
+		li {
+			padding: 0 0.5em;
+		}
+
+		p {
+			font-size: 16px;
+		}
+
+		img {
+			width: 48px;
+		}
+
+	}
+
+	/* ========== BUTTONS ========== */
+
+	a.btn {
+		margin: 3em 0 2em 0;
+	}
+
+	.content {
+		padding-top: 68px;
+	}
+
+	/* ========== HOME PAGE ========== */
+
+	.welcome-msg-index {
+		display: block;
+		padding: 10em 6em;
+		background-position: left top;
+	}
+}
+
+/* ================================================================ 
+	[MOBILE MEDIA QUERY END]   
+================================================================  */
