@@ -65,8 +65,10 @@
 			<div class="welcome-msg-about">
 
 				<!-- Text Start -->
-				<h1>Hi hi!</h1>
-				<h3>You just found a small girl with a big backpack who carries goodies to care for human-beings.</h3>
+				<div id="animation-wrapper">
+					<h1>Hi hi!</h1>
+					<h3>You just found a small girl with a big backpack who carries goodies to care for human-beings.</h3>
+				</div>
 				<!-- Text End -->
 
 			</div>
@@ -75,14 +77,14 @@
 			<!-- Who Am I Description Start -->
 			<div class="who-am-i">
 
-				<div class="who-am-i-text">
+				<div class="who-am-i-text" id="animation-wrapper">
 					<h2>WHO AM I?</h2>
 					<h4>I am a User Experience Designer based in Vancouver (the British Columbia, Canada one). I recently graduated from the <a target="_blank" href="http://www.siat.sfu.ca/">Interactive Arts and Technology </a>(SIAT) program at Simon Fraser University with a BA, with Distinction in the Design Concentration and currently undergoing a 2D Design certificate program at <a target="_blank" href="http://www.ecuad.ca">Emily Carr University</a>. I also currently work as a full time contractor at <a target="_blank" href="http://surrey.ca">Surrey City Hall.</a></h4>
 					<br><h4>I am always seeking out for new things to do, love to work with others and use my creative skills to exceed clients’ expectations. During my spare time, I volunteer for <a target="_blank" href="https://www.animerevolution.ca">AniRevo</a>, a local anime convention as a photographer and videographer, as well as making <a target="_blank" href="https://dribbble.com/janicen">illustrations</a>.</h4>
 				</div>
 
 				<!-- Me Image Start --> 
-				<div class ="me-img">
+				<div class ="me-img" id="animation-wrapper">
 					<img src="./img/about-illustration.png" width="300" height="300" alt="about me illustration"/>
 				</div>
 				<!-- Me Image End -->
@@ -93,29 +95,29 @@
 			<!-- Why I Design Description Start -->
 			<div class="why-i-design">
 
-				<div class="why-i-design-text">
-					<h2>WHY I DESIGN?</h2>
-					<h4>As an individual, I am interested in tinkering with digital media, observing human behaviours and tapping into moments of life. Doing so, I can then blend the items together to craft cohesive experiences for people to cherish upon using a product.</h4>
-				</div>
+					<div class="why-i-design-text" id="animation-wrapper">
+						<h2>WHY I DESIGN?</h2>
+						<h4>As an individual, I am interested in tinkering with digital media, observing human behaviours and tapping into moments of life. Doing so, I can then blend the items together to craft cohesive experiences for people to cherish upon using a product.</h4>
+					</div>
 
-				<!-- Process Diagram Start --> 
-				<div class ="diagram-process">
-					<img src="./img/diagram-process.png" width="350" height="350" alt="my process diagram"/>
-				</div>
-				<!-- Process Diagram End -->
+					<!-- Process Diagram Start --> 
+					<div class ="diagram-process" id="animation-wrapper">
+						<img src="./img/diagram-process.png" width="350" height="350" alt="my process diagram"/>
+					</div>
+					<!-- Process Diagram End -->
 
 			</div>
 			<!-- Why I Design Description End -->
 
 			<!-- Resume Start -->
-			<div class="resume">
+			<div class="resume" id="animation-wrapper">
 				<h3>Feel free to browse through <a target="_blank" href="./docs/JaniceNg_Resume.pdf">my resume</a> too!</h3>
 			</div>
 			<!-- Resume End -->
 
 			<!-- Closing Remarks Start -->
 			<div class="closing-remarks">
-				<h3>I don’t bite, and would love to chat with you and be friends. You can find me through one of the social mediums below.</h3>
+				<h3 id="animation-wrapper">I don’t bite, and would love to chat with you and be friends. You can find me through one of the social mediums below.</h3>
 			</div>
 			<!-- Closing Remarks End -->
 
@@ -125,8 +127,8 @@
 		<!-- Footer Start -->
 		<footer>
 
-			<h3>Connect with me</h3>
-			<ul>
+			<h3 id="animation-wrapper">Connect with me</h3>
+			<ul id="animation-wrapper">
 				<li><a class="dribbble-hover" target="_blank" href="https://dribbble.com/janicen"><img src="./img/icon-dribbble.png" width="64" height="64" alt="dribbble"/><img src="./img/icon-dribbble-hover.png" width="64" height="31" alt="dribbble hover"/></a></li>
 				<li><a class="flickr-hover" target="_blank" href="http://www.flickr.com/photos/42005057@N04/"><img src="./img/icon-flickr.png" width="64" height="64" alt="flickr"/><img src="./img/icon-flickr-hover.png" width="64" height="64" alt="flickr hover"/></a></li>
 				<li><a class="instagram-hover" target="_blank" href="https://www.instagram.com/jelly_angels/"><img src="./img/icon-instagram.png" width="64" height="64" alt="instagram"/><img src="./img/icon-instagram-hover.png" width="64" height="64" alt="instagram hover"/></a></li>
@@ -136,12 +138,20 @@
 			<div class="footerwrapper">
 			</div>
 			
-			<p>Janice Ng . &copy; 2017 . All rights reserved</p>
+			<p id="animation-wrapper">Janice Ng . &copy; 2017 . All rights reserved</p>
 
 		</footer>
 		<!-- Footer End -->
 
 	</div>
+
+	<!-- Scroll Animation Start -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('#animation-wrapper');
+	</script>
+	<!-- Scroll Animation End -->
 
 	<!-- Analytics Start -->
 	<script>

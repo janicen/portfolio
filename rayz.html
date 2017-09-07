@@ -65,9 +65,9 @@
 			<div class="welcome-msg-rayz">
 
 				<!-- Text Start -->
-				<h1>RAYZ</h1>
-				<h4>revealing the harms of radiation found in daily technology use</h4>
-				<a id="play" href="#video"><img src="./img/icon-play.png" width="64" height="64" alt="video play button"/></a>
+				<h1 id="animation-wrapper">RAYZ</h1>
+				<h4 id="animation-wrapper">revealing the harms of radiation found in daily technology use</h4>
+				<div id="animation-wrapper"><a id="play" href="#video"><img src="./img/icon-play.png" width="64" height="64" alt="video play button"/></a></div>
 				<!-- Text End -->
 
 				<!-- Video Overlay Start -->
@@ -88,7 +88,7 @@
 			<!-- Welcome Message End -->
 
 			<!-- Descriptions Start -->
-			<div class="descriptions">
+			<div class="descriptions" id="animation-wrapper">
 
 				<div class="type">
 					<h3 id="bold">TYPE</h3>
@@ -109,44 +109,44 @@
 			<!-- Description End -->
 
 			<!-- Overview Start -->
-			<div class="overview">
+			<div class="overview" id="animation-wrapper">
 				<h3>Rayz is a garment that can be interacted with when someone wears it. The concept was to physically demonstrate how we are surrounding with radiation when using our everyday technologies and can potentially harm our internal body.</h3>
 			</div>
 			<!-- Overview End -->
 
 			<!-- Gif Start -->
-			<div class="gif">
+			<div class="gif" id="animation-wrapper">
 				<img src="./img/rayz2.gif" alt="rayz garment prototype animation"/>
 			</div>
-				<div class="gif-mobile">
+				<div class="gif-mobile" id="animation-wrapper">
 					<img src="./img/rayz2-m.png" width="980" height="652" alt="rayz garment prototype mobile image"/>
 				</div>
 			<!-- Gif End -->
 
 			<!-- Objective Start -->
 			<div class="objective">
-				<h2>OBJECTIVE</h2>
-				<h3>Create an interactive wearable that reveals the potential health concerns of electromagnetic field radiation emitted by technologies in our surrounding environment.</h3>
+				<h2 id="animation-wrapper">OBJECTIVE</h2>
+				<h3 id="animation-wrapper">Create an interactive wearable that reveals the potential health concerns of electromagnetic field radiation emitted by technologies in our surrounding environment.</h3>
 			</div>
 			<!-- Objective End -->
 
 			<!-- Process Start -->
 			<div class="process">
 
-				<h4>Together with my team, I started the project by researching different types of interactive textile and the domain of radiation to drive the form of a dress. I then sketched out examples to execute the most meaningful experience for users. The form reflects on a lead apron to wear for an x-ray, where the centre represents body tissues that are gradually peeling off due to radiation exposure.</h4>
+				<h4 id="animation-wrapper">Together with my team, I started the project by researching different types of interactive textile and the domain of radiation to drive the form of a dress. I then sketched out examples to execute the most meaningful experience for users. The form reflects on a lead apron to wear for an x-ray, where the centre represents body tissues that are gradually peeling off due to radiation exposure.</h4>
 
 				<div class="images">
-					<img src="./img/rayz3.jpg" alt="interaction sketches"/>
-					<img src="./img/rayz4.jpg" alt="dress sketches"/>
+					<img id="animation-wrapper" src="./img/rayz3.jpg" alt="interaction sketches"/>
+					<img id="animation-wrapper" src="./img/rayz4.jpg" alt="dress sketches"/>
 				</div>
 
-				<h4>This garment seeks to increase awareness of the electromagnetic field radiation absorbed by the human body. It demonstrates that the technology we use are not simple objects, but devices that emit harmful radiant energy. For instance, upon using a cell phone, our ears get hot and that we are not aware of the effects of living tissues burning.</h4>
+				<h4 id="animation-wrapper">This garment seeks to increase awareness of the electromagnetic field radiation absorbed by the human body. It demonstrates that the technology we use are not simple objects, but devices that emit harmful radiant energy. For instance, upon using a cell phone, our ears get hot and that we are not aware of the effects of living tissues burning.</h4>
 
 				<div class="images">
-					<img src="./img/rayz5.jpg" alt="dress"/>
+					<img id="animation-wrapper" src="./img/rayz5.jpg" alt="dress"/>
 				</div>
 
-				<h4>By physically showing the health risks upon interacting with the electromagnetic radiation, it helps generate a dialogue between users and evoke an emotional appeal when wearing the garment. This can allow people to become aware of the issue in a calming manner.</h4>
+				<h4 id="animation-wrapper">By physically showing the health risks upon interacting with the electromagnetic radiation, it helps generate a dialogue between users and evoke an emotional appeal when wearing the garment. This can allow people to become aware of the issue in a calming manner.</h4>
 
 			</div>
 			<!-- Process End -->
@@ -163,9 +163,9 @@
 		<!-- Project Navigation Start -->
 		<a class="project-nav-surrey" href="mysurrey-portal.html">
 
-			<h4>Next Project</h4>
-			<img src="./img/icon-arrow-next.png" width="32" height="25" alt="back to top arrow"/>
-			<h3>MYSURREY PORTAL</h3>
+			<h4 id="animation-wrapper">Next Project</h4>
+			<img id="animation-wrapper" src="./img/icon-arrow-next.png" width="32" height="25" alt="back to top arrow"/>
+			<h3 id="animation-wrapper">MYSURREY PORTAL</h3>
 
 
 		</a>
@@ -191,6 +191,15 @@
 		<!-- Footer End -->
 
 	</div>
+
+	<!-- Scroll Animation Start -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('#animation-wrapper');
+		sr.reveal('.top');
+	</script>
+	<!-- Scroll Animation End -->
 
 	<!-- Analytics Start -->
 	<script>
