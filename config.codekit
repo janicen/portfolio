@@ -1109,6 +1109,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/IMG_8150.PNG": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109834,
+		"inputAbbreviatedPath": "\/IMG_8150.PNG",
+		"outputAbbreviatedPath": "\/IMG_8150.PNG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1117,28 +1128,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/js\/min\/scroll-animation-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/scroll-animation-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/scroll-animation-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/scroll-animation.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/scroll-animation.js",
-		"outputAbbreviatedPath": "\/js\/min\/scroll-animation-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/mysurrey-portal.html": {
 		"fileType": 8192,
