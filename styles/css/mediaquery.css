@@ -108,6 +108,11 @@
       margin: 0; }
       .why-i-design .diagram-process img {
         max-width: 250px; }
+  .my-design-process {
+    padding: 3em; }
+  .resume {
+    margin: 0 3em;
+    border-top: 1px solid #939292; }
   .closing-remarks h3 {
     width: 80%; }
   /* ========== WORKS PAGE ========== */
@@ -230,7 +235,15 @@
       max-width: none;
       margin-right: 0;
       text-align: center; }
+  .my-design-process {
+    padding: 2em; }
+    .my-design-process .design-process {
+      display: none; }
+    .my-design-process .design-process-m {
+      display: block;
+      text-align: center; }
   .resume {
+    margin: 2em;
     padding: 2em; }
   .closing-remarks {
     padding: 2em; }

@@ -221,6 +221,15 @@ and (max-width : 1024px)  {
 		}
 	}
 
+	.my-design-process {
+		padding: 3em;
+	}
+
+	.resume {
+		margin: 0 3em;
+		border-top: 1px solid #939292;
+	}
+
 	.closing-remarks {
 		h3 {
 			width: 80%;
@@ -472,7 +481,21 @@ and (max-width : 767px) {
 		}
 	}
 
+	.my-design-process {
+		padding: 2em;
+
+		.design-process {
+			display: none;
+		}
+
+		.design-process-m {
+			display: block;
+			text-align: center;
+		}
+	}
+
 	.resume {
+		margin: 2em;
 		padding: 2em;
 	}
 

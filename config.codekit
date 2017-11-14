@@ -163,6 +163,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/design-process-m.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/design-process-m.png",
+		"outputAbbreviatedPath": "\/img\/design-process-m.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/design-process.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54632,
+		"inputAbbreviatedPath": "\/img\/design-process.png",
+		"outputAbbreviatedPath": "\/img\/design-process.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/diagram-process.png": {
 		"fileType": 32768,
 		"ignore": 0,
