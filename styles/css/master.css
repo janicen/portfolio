@@ -127,6 +127,9 @@
   color: #039ED3; }
   .my-design-process .design-process-m {
     display: none; }
+  .my-design-process h4 {
+    color: #000000;
+    padding-bottom: 2em; }
 
 .resume {
   margin: 0 6em;
