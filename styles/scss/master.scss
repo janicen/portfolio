@@ -531,12 +531,16 @@ a#play {
 .project-nav-sfu,
 .project-nav-rayz,
 .project-nav-surrey {
-	display: block;
+	// display: block;
+	// text-align: center;
+	// padding: 5em 0;
+
+	display: inline-block;
 	text-align: center;
 	padding: 5em 0;
-
-	// position: relative;
-	// overflow: hidden;
+	width: 50%;
+	float: left;
+	margin-bottom: 4em;
 
 	h3 {
 		margin-top: 1em;

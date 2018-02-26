@@ -191,6 +191,10 @@
   .process .caption h3 {
     padding-bottom: 2em; }
 
+.project-nav-rayz {
+  background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/rayz-cover.jpg");
+  background-position: bottom center; }
+
 .project-nav-ibm {
   background: linear-gradient(rgba(3, 158, 211, 0.75), rgba(3, 158, 211, 0.75)), url("../../img/ibm-cover.jpg");
   background-position: center center; }
@@ -691,9 +695,12 @@ a#play:hover {
 
 /* ========== PROJECT NAV ========== */
 .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
-  display: block;
+  display: inline-block;
   text-align: center;
-  padding: 5em 0; }
+  padding: 5em 0;
+  width: 50%;
+  float: left;
+  margin-bottom: 4em; }
   .project-nav-ibm h3, .project-nav-farmooo h3, .project-nav-sfu h3, .project-nav-rayz h3, .project-nav-surrey h3 {
     margin-top: 1em; }
 
