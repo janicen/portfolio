@@ -611,7 +611,10 @@ and (max-width : 767px) {
 	.project-nav-sfu, 
 	.project-nav-rayz,
 	.project-nav-surrey {
-		padding: 2em 0;
+		width: 100%;
+		margin: 0;
+		display: block;
+		float: none;
 	}
 
 		/* FARMOOO */
