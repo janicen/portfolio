@@ -116,7 +116,11 @@
   .closing-remarks h3 {
     width: 80%; }
   /* ========== WORKS PAGE ========== */
-  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
+  .welcome-msg-surrey,
+  .welcome-msg-ibm,
+  .welcome-msg-farmooo,
+  .welcome-msg-sfu,
+  .welcome-msg-rayz {
     padding: 3em;
     height: 220px; }
   .welcome-msg-sfu {
@@ -143,8 +147,12 @@
     margin: 3em; }
   .top {
     padding: 2em; }
-  .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
-    padding: 3em 0; } }
+  .nav-wrapper .project-nav-ibm,
+  .nav-wrapper .project-nav-farmooo,
+  .nav-wrapper .project-nav-sfu,
+  .nav-wrapper .project-nav-rayz,
+  .nav-wrapper .project-nav-surrey {
+    padding: 50px 0px; } }
 
 /* ================================================================ 
 	[TABLET MEDIA QUERY END]   
@@ -250,10 +258,18 @@
     .closing-remarks h3 {
       width: 100%; }
   /* ========== WORKS PAGE ========== */
-  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
+  .welcome-msg-surrey,
+  .welcome-msg-ibm,
+  .welcome-msg-farmooo,
+  .welcome-msg-sfu,
+  .welcome-msg-rayz {
     padding: 2em;
     height: 200px; }
-    .welcome-msg-surrey img, .welcome-msg-ibm img, .welcome-msg-farmooo img, .welcome-msg-sfu img, .welcome-msg-rayz img {
+    .welcome-msg-surrey img,
+    .welcome-msg-ibm img,
+    .welcome-msg-farmooo img,
+    .welcome-msg-sfu img,
+    .welcome-msg-rayz img {
       width: 48px;
       height: auto; }
   .welcome-msg-sfu {
@@ -300,11 +316,13 @@
     margin: 0; }
   .top {
     padding: 1em; }
-  .project-nav-ibm, .project-nav-farmooo, .project-nav-sfu, .project-nav-rayz, .project-nav-surrey {
+  .nav-wrapper .project-nav-ibm,
+  .nav-wrapper .project-nav-farmooo,
+  .nav-wrapper .project-nav-sfu,
+  .nav-wrapper .project-nav-rayz,
+  .nav-wrapper .project-nav-surrey {
     width: 100%;
-    margin: 0;
-    display: block;
-    float: none; }
+    display: block; }
   /* FARMOOO */
   .press-release {
     padding: 2em; }
