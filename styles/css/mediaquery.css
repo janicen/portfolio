@@ -44,8 +44,11 @@
     margin: 3em 10em; }
   .objective {
     padding: 5em; }
+  .process .process-title h4 {
+    padding: 5em 10em 1em 10em;
+    font-weight: 600; }
   .process h4 {
-    padding: 5em 10em; } }
+    padding: 0 10em 6em 10em; } }
 
 /* ================================================================ 
 	[LAPTOP MEDIA QUERY END]   
@@ -116,11 +119,7 @@
   .closing-remarks h3 {
     width: 80%; }
   /* ========== WORKS PAGE ========== */
-  .welcome-msg-surrey,
-  .welcome-msg-ibm,
-  .welcome-msg-farmooo,
-  .welcome-msg-sfu,
-  .welcome-msg-rayz {
+  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
     padding: 3em;
     height: 220px; }
   .welcome-msg-sfu {
@@ -137,8 +136,11 @@
     padding: 3em; }
     .objective h2 {
       margin-right: 2em; }
+  .process .process-title h4 {
+    padding: 3em 5em 1em 5em;
+    font-weight: 600; }
   .process h4 {
-    padding: 3em 5em; }
+    padding: 0 5em 4em 5em; }
   .process .caption {
     padding: 3em; }
   .process .images-row1, .process .images-row2 {
@@ -147,11 +149,7 @@
     margin: 3em; }
   .top {
     padding: 2em; }
-  .nav-wrapper .project-nav-ibm,
-  .nav-wrapper .project-nav-farmooo,
-  .nav-wrapper .project-nav-sfu,
-  .nav-wrapper .project-nav-rayz,
-  .nav-wrapper .project-nav-surrey {
+  .nav-wrapper .project-nav-ibm, .nav-wrapper .project-nav-farmooo, .nav-wrapper .project-nav-sfu, .nav-wrapper .project-nav-rayz, .nav-wrapper .project-nav-surrey {
     padding: 50px 0px; } }
 
 /* ================================================================ 
@@ -258,18 +256,10 @@
     .closing-remarks h3 {
       width: 100%; }
   /* ========== WORKS PAGE ========== */
-  .welcome-msg-surrey,
-  .welcome-msg-ibm,
-  .welcome-msg-farmooo,
-  .welcome-msg-sfu,
-  .welcome-msg-rayz {
+  .welcome-msg-surrey, .welcome-msg-ibm, .welcome-msg-farmooo, .welcome-msg-sfu, .welcome-msg-rayz {
     padding: 2em;
     height: 200px; }
-    .welcome-msg-surrey img,
-    .welcome-msg-ibm img,
-    .welcome-msg-farmooo img,
-    .welcome-msg-sfu img,
-    .welcome-msg-rayz img {
+    .welcome-msg-surrey img, .welcome-msg-ibm img, .welcome-msg-farmooo img, .welcome-msg-sfu img, .welcome-msg-rayz img {
       width: 48px;
       height: auto; }
   .welcome-msg-sfu {
@@ -298,8 +288,11 @@
     justify-content: flex-start; }
     .objective h2 {
       padding-bottom: 0.5em; }
+  .process .process-title h4 {
+    padding: 2em 2em 0.5em 2em;
+    font-weight: 600; }
   .process h4 {
-    padding: 2em; }
+    padding: 0 2em 3em 2em; }
   .process .image-caption {
     display: block; }
     .process .image-caption img {
@@ -316,11 +309,7 @@
     margin: 0; }
   .top {
     padding: 1em; }
-  .nav-wrapper .project-nav-ibm,
-  .nav-wrapper .project-nav-farmooo,
-  .nav-wrapper .project-nav-sfu,
-  .nav-wrapper .project-nav-rayz,
-  .nav-wrapper .project-nav-surrey {
+  .nav-wrapper .project-nav-ibm, .nav-wrapper .project-nav-farmooo, .nav-wrapper .project-nav-sfu, .nav-wrapper .project-nav-rayz, .nav-wrapper .project-nav-surrey {
     width: 100%;
     display: block; }
   /* FARMOOO */

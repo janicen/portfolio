@@ -96,8 +96,16 @@
 
 	.process {
 
-		h4{
-			padding: 5em 10em;
+		.process-title {
+
+			h4 {
+				padding: 5em 10em 1em 10em;
+				font-weight: 600;
+			}
+		}
+
+		h4 {
+			padding: 0 10em 6em 10em;
 		}
 
 	}
@@ -274,9 +282,17 @@ and (max-width : 1024px)  {
 	}
 
 	.process {
+
+		.process-title {
+
+			h4 {
+				padding: 3em 5em 1em 5em;
+				font-weight: 600;
+			}
+		}
 		
 		h4 {
-			padding: 3em 5em;
+			padding: 0 5em 4em 5em;
 		}
 
 		.caption {
@@ -572,9 +588,17 @@ and (max-width : 767px) {
 	}
 
 	.process {
+
+		.process-title {
+
+			h4 {
+				padding: 2em 2em 0.5em 2em;
+				font-weight: 600;
+			}
+		}
 		
 		h4 {
-			padding: 2em;
+			padding: 0 2em 3em 2em;
 		}
 
 		.image-caption {
